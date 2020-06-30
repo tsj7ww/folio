@@ -1,2 +1,2 @@
-# portfolio
-Repo for storing curated coding projects for display.
+# Folio
+Repo for storing curated projects.
