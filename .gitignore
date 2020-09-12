@@ -3,6 +3,7 @@ artifacts/
 layers/
 layer/
 env/
+*.zip
 
 
 

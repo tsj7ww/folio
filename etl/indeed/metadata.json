@@ -19,7 +19,8 @@
   "assets": {
       "input": ["Indeed.com"],
       "output": ["JSON","AWS DynamoDB","AWS SES"],
-      "aws": ["lambda","dynamodb","ses","sns","events"]
+      "aws": ["lambda","dynamodb","ses","sns","events"],
+      "dependencies": ["boto3","requests","bs4"]
   },
   "changeLog": {
       "2020-09-01": {
