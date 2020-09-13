@@ -5,7 +5,7 @@ Repo for storing curated projects.
 ##### Covid19
 - Description: Analysis on Covid19 data provided by Johns Hopkins University.
 - Languages: Python, Shell
-- Technology: Jupyter Notebook, Scipy, Matplotlib
+- Technology: Jupyter Notebook, Docker,  Pandas, MatPlotLib, SciPy, TensorFlow
 
 ### ETL
 ##### Indeed.com
