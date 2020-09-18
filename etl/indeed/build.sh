@@ -2,8 +2,8 @@ source $PWD/artifacts/project.env
 
 DYNAMO() {
     aws dynamodb create-table --table-name $TYPE-$PID \
-    --attribute-definitions AttributeName=jobOppId,AttributeType=S \
-    --key-schema AttributeName=jobOppId,KeyType=HASH \
+    --attribute-definitions AttributeName=indeed_id,AttributeType=S \
+    --key-schema AttributeName=indeed_id,KeyType=HASH \
     --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5
     # --sse-specification Enabled=true SSEType=AES256
     # aws dynamodb delete-table --table-name $PID
