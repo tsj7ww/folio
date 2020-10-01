@@ -4,6 +4,7 @@ __pycache/
 *.pyc
 *.csv
 *.parquet
+*.parquet.gzip
 *.dat
 *.pdf
 *.log
