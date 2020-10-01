@@ -245,7 +245,7 @@ def EMAIL(body,package):
 
 # if __name__=="__main__":
 def HANDLER(event, context):
-
+    """"""
     # if not event: # developing locally
     #     with open(os.path.join(os.getcwd(),'metadata.json'),'r') as f:
     #         META = json.load(f)
