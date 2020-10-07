@@ -13,7 +13,7 @@
 - **RECOVERED** [9] - int64 (0 / 6303) 
 - **ACTIVE** [10] - float64 (9.0 / 1307.0) 
 - **COMBINED_KEY** [11] - object (Abbeville, South Carolina, US / Zimbabwe) 
-- **DATA_DT** [12] - object (20200412 / 20200930) 
+- **DATA_DT** [12] - object (2020-04-12 / 2020-09-30) 
 - **INCIDENCE_RATE** [13] - float64 (nan / 52.73523848969991) 
 - **CASE-FATALITY_RATIO** [14] - float64 (nan / 2.9089053329931103) 
 
@@ -57,7 +57,7 @@
       <td>0</td>
       <td>9.0</td>
       <td>Abbeville, South Carolina, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -75,7 +75,7 @@
       <td>0</td>
       <td>94.0</td>
       <td>Acadia, Louisiana, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -93,7 +93,7 @@
       <td>0</td>
       <td>15.0</td>
       <td>Accomack, Virginia, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -111,7 +111,7 @@
       <td>0</td>
       <td>511.0</td>
       <td>Ada, Idaho, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -129,7 +129,7 @@
       <td>0</td>
       <td>1.0</td>
       <td>Adair, Iowa, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -147,7 +147,7 @@
       <td>0</td>
       <td>11.0</td>
       <td>Adair, Kentucky, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -165,7 +165,7 @@
       <td>0</td>
       <td>11.0</td>
       <td>Adair, Missouri, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -183,7 +183,7 @@
       <td>0</td>
       <td>25.0</td>
       <td>Adair, Oklahoma, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -201,7 +201,7 @@
       <td>0</td>
       <td>621.0</td>
       <td>Adams, Colorado, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -219,7 +219,7 @@
       <td>0</td>
       <td>1.0</td>
       <td>Adams, Idaho, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -237,7 +237,7 @@
       <td>0</td>
       <td>25.0</td>
       <td>Adams, Illinois, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -255,7 +255,7 @@
       <td>0</td>
       <td>4.0</td>
       <td>Adams, Indiana, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -273,7 +273,7 @@
       <td>0</td>
       <td>50.0</td>
       <td>Adams, Mississippi, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -291,7 +291,7 @@
       <td>0</td>
       <td>54.0</td>
       <td>Adams, Nebraska, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -309,7 +309,7 @@
       <td>0</td>
       <td>3.0</td>
       <td>Adams, Ohio, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -327,7 +327,7 @@
       <td>0</td>
       <td>47.0</td>
       <td>Adams, Pennsylvania, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -345,7 +345,7 @@
       <td>0</td>
       <td>36.0</td>
       <td>Adams, Washington, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -363,7 +363,7 @@
       <td>0</td>
       <td>2.0</td>
       <td>Adams, Wisconsin, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -381,7 +381,7 @@
       <td>0</td>
       <td>54.0</td>
       <td>Addison, Vermont, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -399,7 +399,7 @@
       <td>0</td>
       <td>49.0</td>
       <td>Aiken, South Carolina, US</td>
-      <td>20200412</td>
+      <td>2020-04-12</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -417,7 +417,7 @@
       <td>600</td>
       <td>17.0</td>
       <td>Channel Islands, United Kingdom</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>390.031613</td>
       <td>7.218045</td>
     </tr>
@@ -435,7 +435,7 @@
       <td>0</td>
       <td>350913.0</td>
       <td>England, United Kingdom</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>693.750313</td>
       <td>9.638154</td>
     </tr>
@@ -453,7 +453,7 @@
       <td>13</td>
       <td>0.0</td>
       <td>Falkland Islands (Malvinas), United Kingdom</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>373.241459</td>
       <td>0.000000</td>
     </tr>
@@ -471,7 +471,7 @@
       <td>344</td>
       <td>52.0</td>
       <td>Gibraltar, United Kingdom</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>1175.388086</td>
       <td>0.000000</td>
     </tr>
@@ -489,7 +489,7 @@
       <td>315</td>
       <td>1.0</td>
       <td>Isle of Man, United Kingdom</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>399.849468</td>
       <td>7.058824</td>
     </tr>
@@ -507,7 +507,7 @@
       <td>12</td>
       <td>0.0</td>
       <td>Montserrat, United Kingdom</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>260.052010</td>
       <td>7.692308</td>
     </tr>
@@ -525,7 +525,7 @@
       <td>0</td>
       <td>11114.0</td>
       <td>Northern Ireland, United Kingdom</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>621.439201</td>
       <td>4.951680</td>
     </tr>
@@ -543,7 +543,7 @@
       <td>0</td>
       <td>26725.0</td>
       <td>Scotland, United Kingdom</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>535.280874</td>
       <td>8.613733</td>
     </tr>
@@ -561,7 +561,7 @@
       <td>645</td>
       <td>38.0</td>
       <td>Turks and Caicos Islands, United Kingdom</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>1779.534067</td>
       <td>0.870827</td>
     </tr>
@@ -579,7 +579,7 @@
       <td>0</td>
       <td>0.0</td>
       <td>Unknown, United Kingdom</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
@@ -597,7 +597,7 @@
       <td>0</td>
       <td>22369.0</td>
       <td>Wales, United Kingdom</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>764.194227</td>
       <td>6.737544</td>
     </tr>
@@ -615,7 +615,7 @@
       <td>1791</td>
       <td>207.0</td>
       <td>Uruguay</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>58.899274</td>
       <td>2.346041</td>
     </tr>
@@ -633,7 +633,7 @@
       <td>53366</td>
       <td>2881.0</td>
       <td>Uzbekistan</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>169.460285</td>
       <td>0.828676</td>
     </tr>
@@ -651,7 +651,7 @@
       <td>65225</td>
       <td>9269.0</td>
       <td>Venezuela</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>264.179739</td>
       <td>0.835973</td>
     </tr>
@@ -669,7 +669,7 @@
       <td>1010</td>
       <td>49.0</td>
       <td>Vietnam</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>1.123912</td>
       <td>3.199269</td>
     </tr>
@@ -687,7 +687,7 @@
       <td>31743</td>
       <td>7845.0</td>
       <td>West Bank and Gaza</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>782.116181</td>
       <td>0.779468</td>
     </tr>
@@ -705,7 +705,7 @@
       <td>8</td>
       <td>1.0</td>
       <td>Western Sahara</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>1.674116</td>
       <td>10.000000</td>
     </tr>
@@ -723,7 +723,7 @@
       <td>1286</td>
       <td>161.0</td>
       <td>Yemen</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>6.819561</td>
       <td>28.859390</td>
     </tr>
@@ -741,7 +741,7 @@
       <td>13959</td>
       <td>468.0</td>
       <td>Zambia</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>80.281959</td>
       <td>2.249475</td>
     </tr>
@@ -759,7 +759,7 @@
       <td>6303</td>
       <td>1307.0</td>
       <td>Zimbabwe</td>
-      <td>20200930</td>
+      <td>2020-09-30</td>
       <td>52.735238</td>
       <td>2.908905</td>
     </tr>
