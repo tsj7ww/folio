@@ -1,13 +1,13 @@
-# EDA - COVID-JHU-CSSE-TS-ERR Files 
+# EDA - COVID-JHU-TS-ERR Files 
 
 #### Column Name [IDX] -  Dtype (Head / Tail) 
-- **UPDATE DATE** [0] - object (4/7/2020 / 9/08/2020) 
-- **FILE** [1] - object (time_series_covid19_confirmed_US.csv / time_series_covid19_recovered_global.csv) 
-- **LOCATION** [2] - object (Viginia Island / Colombia) 
-- **FIELD UPDATED** [3] - object (3/29/2020 / 9/07/2020) 
-- **OLD** [4] - object (0 / 518229) 
-- **NEW** [5] - object (23 / 529279) 
-- **COMMENTS** [6] - object (New York Times / Update from Colombia news source) 
+- **UPDATE DATE** [0] - object (4/7/2020 / 10/06/2020) 
+- **FILE** [1] - object (time_series_covid19_confirmed_US.csv / time_series_covid19_deaths_global.csv) 
+- **LOCATION** [2] - object (Viginia Island / Liechtenstein) 
+- **FIELD UPDATED** [3] - object (3/29/2020 / 06/30/2020) 
+- **OLD** [4] - object (0 / 2) 
+- **NEW** [5] - object (23 / 1) 
+- **COMMENTS** [6] - object (New York Times / correction) 
 
 
 
@@ -228,106 +228,6 @@
       <td>add 371 decesEhpad</td>
     </tr>
     <tr>
-      <th>487</th>
-      <td>9/05/2020</td>
-      <td>time_series_covid19_deaths_global.csv</td>
-      <td>Bahamas</td>
-      <td>8/25/2020</td>
-      <td>29</td>
-      <td>48</td>
-      <td>Update from Bahamas press release</td>
-    </tr>
-    <tr>
-      <th>488</th>
-      <td>9/05/2020</td>
-      <td>time_series_covid19_deaths_global.csv</td>
-      <td>Bahamas</td>
-      <td>8/26/2020</td>
-      <td>29</td>
-      <td>48</td>
-      <td>Update from Bahamas press release</td>
-    </tr>
-    <tr>
-      <th>489</th>
-      <td>9/05/2020</td>
-      <td>time_series_covid19_recovered_global.csv</td>
-      <td>Bahamas</td>
-      <td>8/22/2020</td>
-      <td>221</td>
-      <td>227</td>
-      <td>Update from Bahamas press release</td>
-    </tr>
-    <tr>
-      <th>490</th>
-      <td>9/05/2020</td>
-      <td>time_series_covid19_recovered_global.csv</td>
-      <td>Bahamas</td>
-      <td>8/23/2020</td>
-      <td>227</td>
-      <td>634</td>
-      <td>Update from Bahamas press release</td>
-    </tr>
-    <tr>
-      <th>491</th>
-      <td>9/05/2020</td>
-      <td>time_series_covid19_recovered_global.csv</td>
-      <td>Bahamas</td>
-      <td>8/24/2020</td>
-      <td>227</td>
-      <td>634</td>
-      <td>Update from Bahamas press release</td>
-    </tr>
-    <tr>
-      <th>492</th>
-      <td>9/05/2020</td>
-      <td>time_series_covid19_recovered_global.csv</td>
-      <td>Bahamas</td>
-      <td>8/25/2020</td>
-      <td>227</td>
-      <td>634</td>
-      <td>Update from Bahamas press release</td>
-    </tr>
-    <tr>
-      <th>493</th>
-      <td>9/05/2020</td>
-      <td>time_series_covid19_recovered_global.csv</td>
-      <td>Bahamas</td>
-      <td>8/26/2020</td>
-      <td>227</td>
-      <td>733</td>
-      <td>Update from Bahamas press release</td>
-    </tr>
-    <tr>
-      <th>494</th>
-      <td>9/05/2020</td>
-      <td>time_series_covid19_recovered_global.csv</td>
-      <td>Bahamas</td>
-      <td>8/27/2020</td>
-      <td>227</td>
-      <td>742</td>
-      <td>Update from Bahamas press release</td>
-    </tr>
-    <tr>
-      <th>495</th>
-      <td>9/08/2020</td>
-      <td>time_series_covid19_confirmed_global.csv</td>
-      <td>Colombia</td>
-      <td>8/22/2020</td>
-      <td>522138</td>
-      <td>533103</td>
-      <td>Update from Colombia news source</td>
-    </tr>
-    <tr>
-      <th>496</th>
-      <td>9/08/2020</td>
-      <td>time_series_covid19_confirmed_global.csv</td>
-      <td>Colombia</td>
-      <td>9/04/2020</td>
-      <td>641574</td>
-      <td>650063</td>
-      <td>Update from Colombia news source</td>
-    </tr>
-    <tr>
       <th>497</th>
       <td>9/08/2020</td>
       <td>time_series_covid19_confirmed_global.csv</td>
@@ -426,6 +326,106 @@
       <td>518229</td>
       <td>529279</td>
       <td>Update from Colombia news source</td>
+    </tr>
+    <tr>
+      <th>507</th>
+      <td>09/25/2020</td>
+      <td>time_series_covid19_confirmed_US.csv</td>
+      <td>Wisconsin</td>
+      <td>09/15/2020, 09/16/2020, 09/17/2020</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>508</th>
+      <td>09/25/2020</td>
+      <td>time_series_covid19_deaths_US.csv</td>
+      <td>Wisconsin</td>
+      <td>09/15/2020, 09/16/2020, 09/17/2020</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>509</th>
+      <td>09/25/2020</td>
+      <td>time_series_covid19_confirmed_global.csv</td>
+      <td>Wisconsin</td>
+      <td>09/15/2020, 09/16/2020, 09/17/2020</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>510</th>
+      <td>09/25/2020</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Wisconsin</td>
+      <td>09/15/2020, 09/16/2020, 09/17/2020</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>511</th>
+      <td>10/05/2020</td>
+      <td>time_series_covid19_confirmed_global.csv</td>
+      <td>Czechia</td>
+      <td>09/30/2020</td>
+      <td>68919</td>
+      <td>70763</td>
+      <td>Update from mzcr website</td>
+    </tr>
+    <tr>
+      <th>512</th>
+      <td>10/05/2020</td>
+      <td>time_series_covid19_confirmed_global.csv</td>
+      <td>Netherlands</td>
+      <td>9/27/2020</td>
+      <td>108361</td>
+      <td>111626</td>
+      <td>Update via Netherlands dashboard</td>
+    </tr>
+    <tr>
+      <th>513</th>
+      <td>10/05/2020</td>
+      <td>time_series_covid19_confirmed_global.csv</td>
+      <td>Netherlands</td>
+      <td>9/28/2020</td>
+      <td>110671</td>
+      <td>114540</td>
+      <td>Update via Netherlands dashboard</td>
+    </tr>
+    <tr>
+      <th>514</th>
+      <td>10/05/2020</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Netherlands</td>
+      <td>9/27/2020</td>
+      <td>6366</td>
+      <td>6374</td>
+      <td>Update via Netherlands dashboard</td>
+    </tr>
+    <tr>
+      <th>515</th>
+      <td>10/05/2020</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Netherlands</td>
+      <td>9/28/2020</td>
+      <td>6366</td>
+      <td>6380</td>
+      <td>Update via Netherlands dashboard</td>
+    </tr>
+    <tr>
+      <th>516</th>
+      <td>10/06/2020</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Liechtenstein</td>
+      <td>06/30/2020</td>
+      <td>2</td>
+      <td>1</td>
+      <td>correction</td>
     </tr>
   </tbody>
 </table>

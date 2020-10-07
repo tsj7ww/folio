@@ -1,19 +1,21 @@
-# EDA - COVID-JHU-CSSE-DLY Files 
+# EDA - COVID-JHU-DLY Files 
 
 #### Column Name [IDX] -  Dtype (Head / Tail) 
 - **FIPS** [0] - float64 (45001.0 / nan) 
 - **ADMIN2** [1] - object (Abbeville / nan) 
 - **PROVINCE_STATE** [2] - object (South Carolina / nan) 
 - **COUNTRY_REGION** [3] - object (US / Zimbabwe) 
-- **LAST_UPDATE** [4] - object (2020-04-12 23:18:00 / 2020-05-01 02:32:28) 
+- **LAST_UPDATE** [4] - object (2020-04-12 23:18:00 / 2020-10-01 04:23:42) 
 - **LAT** [5] - float64 (34.22333378 / -19.015438) 
 - **LONG** [6] - float64 (-82.46170658 / 29.154857) 
-- **CONFIRMED** [7] - int64 (9 / 40) 
-- **DEATHS** [8] - int64 (0 / 4) 
-- **RECOVERED** [9] - int64 (0 / 5) 
-- **ACTIVE** [10] - int64 (9 / 31) 
+- **CONFIRMED** [7] - int64 (9 / 7838) 
+- **DEATHS** [8] - int64 (0 / 228) 
+- **RECOVERED** [9] - int64 (0 / 6303) 
+- **ACTIVE** [10] - float64 (9.0 / 1307.0) 
 - **COMBINED_KEY** [11] - object (Abbeville, South Carolina, US / Zimbabwe) 
-- **DATA_DT** [12] - object (2020-04-12 / 2020-04-30) 
+- **DATA_DT** [12] - object (20200412 / 20200930) 
+- **INCIDENCE_RATE** [13] - float64 (nan / 52.73523848969991) 
+- **CASE-FATALITY_RATIO** [14] - float64 (nan / 2.9089053329931103) 
 
 
 
@@ -36,6 +38,8 @@
       <th>ACTIVE</th>
       <th>COMBINED_KEY</th>
       <th>DATA_DT</th>
+      <th>INCIDENCE_RATE</th>
+      <th>CASE-FATALITY_RATIO</th>
     </tr>
   </thead>
   <tbody>
@@ -51,9 +55,11 @@
       <td>9</td>
       <td>0</td>
       <td>0</td>
-      <td>9</td>
+      <td>9.0</td>
       <td>Abbeville, South Carolina, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>1</th>
@@ -67,9 +73,11 @@
       <td>99</td>
       <td>5</td>
       <td>0</td>
-      <td>94</td>
+      <td>94.0</td>
       <td>Acadia, Louisiana, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>2</th>
@@ -83,9 +91,11 @@
       <td>15</td>
       <td>0</td>
       <td>0</td>
-      <td>15</td>
+      <td>15.0</td>
       <td>Accomack, Virginia, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>3</th>
@@ -99,9 +109,11 @@
       <td>517</td>
       <td>6</td>
       <td>0</td>
-      <td>511</td>
+      <td>511.0</td>
       <td>Ada, Idaho, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>4</th>
@@ -115,9 +127,11 @@
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
+      <td>1.0</td>
       <td>Adair, Iowa, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>5</th>
@@ -131,9 +145,11 @@
       <td>11</td>
       <td>0</td>
       <td>0</td>
-      <td>11</td>
+      <td>11.0</td>
       <td>Adair, Kentucky, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>6</th>
@@ -147,9 +163,11 @@
       <td>11</td>
       <td>0</td>
       <td>0</td>
-      <td>11</td>
+      <td>11.0</td>
       <td>Adair, Missouri, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>7</th>
@@ -163,9 +181,11 @@
       <td>27</td>
       <td>2</td>
       <td>0</td>
-      <td>25</td>
+      <td>25.0</td>
       <td>Adair, Oklahoma, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>8</th>
@@ -179,9 +199,11 @@
       <td>647</td>
       <td>26</td>
       <td>0</td>
-      <td>621</td>
+      <td>621.0</td>
       <td>Adams, Colorado, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>9</th>
@@ -195,9 +217,11 @@
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
+      <td>1.0</td>
       <td>Adams, Idaho, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>10</th>
@@ -211,9 +235,11 @@
       <td>25</td>
       <td>0</td>
       <td>0</td>
-      <td>25</td>
+      <td>25.0</td>
       <td>Adams, Illinois, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>11</th>
@@ -227,9 +253,11 @@
       <td>5</td>
       <td>1</td>
       <td>0</td>
-      <td>4</td>
+      <td>4.0</td>
       <td>Adams, Indiana, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>12</th>
@@ -243,9 +271,11 @@
       <td>51</td>
       <td>1</td>
       <td>0</td>
-      <td>50</td>
+      <td>50.0</td>
       <td>Adams, Mississippi, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>13</th>
@@ -259,9 +289,11 @@
       <td>54</td>
       <td>0</td>
       <td>0</td>
-      <td>54</td>
+      <td>54.0</td>
       <td>Adams, Nebraska, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>14</th>
@@ -275,9 +307,11 @@
       <td>3</td>
       <td>0</td>
       <td>0</td>
-      <td>3</td>
+      <td>3.0</td>
       <td>Adams, Ohio, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>15</th>
@@ -291,9 +325,11 @@
       <td>48</td>
       <td>1</td>
       <td>0</td>
-      <td>47</td>
+      <td>47.0</td>
       <td>Adams, Pennsylvania, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>16</th>
@@ -307,9 +343,11 @@
       <td>36</td>
       <td>0</td>
       <td>0</td>
-      <td>36</td>
+      <td>36.0</td>
       <td>Adams, Washington, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>17</th>
@@ -323,9 +361,11 @@
       <td>2</td>
       <td>0</td>
       <td>0</td>
-      <td>2</td>
+      <td>2.0</td>
       <td>Adams, Wisconsin, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>18</th>
@@ -339,9 +379,11 @@
       <td>55</td>
       <td>1</td>
       <td>0</td>
-      <td>54</td>
+      <td>54.0</td>
       <td>Addison, Vermont, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>19</th>
@@ -355,329 +397,371 @@
       <td>50</td>
       <td>1</td>
       <td>0</td>
-      <td>49</td>
+      <td>49.0</td>
       <td>Aiken, South Carolina, US</td>
-      <td>2020-04-12</td>
+      <td>20200412</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
-      <th>3157</th>
+      <th>3935</th>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>Tanzania</td>
-      <td>2020-05-01 02:32:28</td>
-      <td>-6.369028</td>
-      <td>34.888822</td>
-      <td>480</td>
-      <td>16</td>
-      <td>167</td>
-      <td>297</td>
-      <td>Tanzania</td>
-      <td>2020-04-30</td>
+      <td>Channel Islands</td>
+      <td>United Kingdom</td>
+      <td>2020-10-01 04:23:42</td>
+      <td>49.372300</td>
+      <td>-2.364400</td>
+      <td>665</td>
+      <td>48</td>
+      <td>600</td>
+      <td>17.0</td>
+      <td>Channel Islands, United Kingdom</td>
+      <td>20200930</td>
+      <td>390.031613</td>
+      <td>7.218045</td>
     </tr>
     <tr>
-      <th>3158</th>
+      <th>3936</th>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>Thailand</td>
-      <td>2020-05-01 02:32:28</td>
-      <td>15.870032</td>
-      <td>100.992541</td>
-      <td>2954</td>
-      <td>54</td>
-      <td>2684</td>
-      <td>216</td>
-      <td>Thailand</td>
-      <td>2020-04-30</td>
+      <td>England</td>
+      <td>United Kingdom</td>
+      <td>2020-10-01 04:23:42</td>
+      <td>52.355500</td>
+      <td>-1.174300</td>
+      <td>388342</td>
+      <td>37429</td>
+      <td>0</td>
+      <td>350913.0</td>
+      <td>England, United Kingdom</td>
+      <td>20200930</td>
+      <td>693.750313</td>
+      <td>9.638154</td>
     </tr>
     <tr>
-      <th>3159</th>
+      <th>3937</th>
       <td>NaN</td>
       <td>NaN</td>
+      <td>Falkland Islands (Malvinas)</td>
+      <td>United Kingdom</td>
+      <td>2020-10-01 04:23:42</td>
+      <td>-51.796300</td>
+      <td>-59.523600</td>
+      <td>13</td>
+      <td>0</td>
+      <td>13</td>
+      <td>0.0</td>
+      <td>Falkland Islands (Malvinas), United Kingdom</td>
+      <td>20200930</td>
+      <td>373.241459</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>3938</th>
       <td>NaN</td>
-      <td>Timor-Leste</td>
-      <td>2020-05-01 02:32:28</td>
-      <td>-8.874217</td>
-      <td>125.727539</td>
+      <td>NaN</td>
+      <td>Gibraltar</td>
+      <td>United Kingdom</td>
+      <td>2020-10-01 04:23:42</td>
+      <td>36.140800</td>
+      <td>-5.353600</td>
+      <td>396</td>
+      <td>0</td>
+      <td>344</td>
+      <td>52.0</td>
+      <td>Gibraltar, United Kingdom</td>
+      <td>20200930</td>
+      <td>1175.388086</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>3939</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Isle of Man</td>
+      <td>United Kingdom</td>
+      <td>2020-10-01 04:23:42</td>
+      <td>54.236100</td>
+      <td>-4.548100</td>
+      <td>340</td>
       <td>24</td>
-      <td>0</td>
-      <td>16</td>
-      <td>8</td>
-      <td>Timor-Leste</td>
-      <td>2020-04-30</td>
+      <td>315</td>
+      <td>1.0</td>
+      <td>Isle of Man, United Kingdom</td>
+      <td>20200930</td>
+      <td>399.849468</td>
+      <td>7.058824</td>
     </tr>
     <tr>
-      <th>3160</th>
+      <th>3940</th>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>Togo</td>
-      <td>2020-05-01 02:32:28</td>
-      <td>8.619500</td>
-      <td>0.824800</td>
-      <td>116</td>
-      <td>9</td>
-      <td>65</td>
-      <td>42</td>
-      <td>Togo</td>
-      <td>2020-04-30</td>
-    </tr>
-    <tr>
-      <th>3161</th>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Trinidad and Tobago</td>
-      <td>2020-05-01 02:32:28</td>
-      <td>10.691800</td>
-      <td>-61.222500</td>
-      <td>116</td>
-      <td>8</td>
-      <td>72</td>
-      <td>36</td>
-      <td>Trinidad and Tobago</td>
-      <td>2020-04-30</td>
-    </tr>
-    <tr>
-      <th>3162</th>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Tunisia</td>
-      <td>2020-05-01 02:32:28</td>
-      <td>33.886917</td>
-      <td>9.537499</td>
-      <td>994</td>
-      <td>41</td>
-      <td>305</td>
-      <td>648</td>
-      <td>Tunisia</td>
-      <td>2020-04-30</td>
-    </tr>
-    <tr>
-      <th>3163</th>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Turkey</td>
-      <td>2020-05-01 02:32:28</td>
-      <td>38.963700</td>
-      <td>35.243300</td>
-      <td>120204</td>
-      <td>3174</td>
-      <td>48886</td>
-      <td>68144</td>
-      <td>Turkey</td>
-      <td>2020-04-30</td>
-    </tr>
-    <tr>
-      <th>3164</th>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Uganda</td>
-      <td>2020-05-01 02:32:28</td>
-      <td>1.373333</td>
-      <td>32.290275</td>
-      <td>83</td>
-      <td>0</td>
-      <td>52</td>
-      <td>31</td>
-      <td>Uganda</td>
-      <td>2020-04-30</td>
-    </tr>
-    <tr>
-      <th>3165</th>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Ukraine</td>
-      <td>2020-05-01 02:32:28</td>
-      <td>48.379400</td>
-      <td>31.165600</td>
-      <td>10406</td>
-      <td>261</td>
-      <td>1238</td>
-      <td>8907</td>
-      <td>Ukraine</td>
-      <td>2020-04-30</td>
-    </tr>
-    <tr>
-      <th>3166</th>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>United Arab Emirates</td>
-      <td>2020-05-01 02:32:28</td>
-      <td>23.424076</td>
-      <td>53.847818</td>
-      <td>12481</td>
-      <td>105</td>
-      <td>2429</td>
-      <td>9947</td>
-      <td>United Arab Emirates</td>
-      <td>2020-04-30</td>
-    </tr>
-    <tr>
-      <th>3167</th>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>Montserrat</td>
       <td>United Kingdom</td>
-      <td>2020-05-01 02:32:28</td>
-      <td>55.378100</td>
-      <td>-3.436000</td>
-      <td>171253</td>
-      <td>26771</td>
-      <td>0</td>
-      <td>144482</td>
-      <td>United Kingdom</td>
-      <td>2020-04-30</td>
+      <td>2020-10-01 04:23:42</td>
+      <td>16.742498</td>
+      <td>-62.187366</td>
+      <td>13</td>
+      <td>1</td>
+      <td>12</td>
+      <td>0.0</td>
+      <td>Montserrat, United Kingdom</td>
+      <td>20200930</td>
+      <td>260.052010</td>
+      <td>7.692308</td>
     </tr>
     <tr>
-      <th>3168</th>
+      <th>3941</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Northern Ireland</td>
+      <td>United Kingdom</td>
+      <td>2020-10-01 04:23:42</td>
+      <td>54.787700</td>
+      <td>-6.492300</td>
+      <td>11693</td>
+      <td>579</td>
+      <td>0</td>
+      <td>11114.0</td>
+      <td>Northern Ireland, United Kingdom</td>
+      <td>20200930</td>
+      <td>621.439201</td>
+      <td>4.951680</td>
+    </tr>
+    <tr>
+      <th>3942</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Scotland</td>
+      <td>United Kingdom</td>
+      <td>2020-10-01 04:23:42</td>
+      <td>56.490700</td>
+      <td>-4.202600</td>
+      <td>29244</td>
+      <td>2519</td>
+      <td>0</td>
+      <td>26725.0</td>
+      <td>Scotland, United Kingdom</td>
+      <td>20200930</td>
+      <td>535.280874</td>
+      <td>8.613733</td>
+    </tr>
+    <tr>
+      <th>3943</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Turks and Caicos Islands</td>
+      <td>United Kingdom</td>
+      <td>2020-10-01 04:23:42</td>
+      <td>21.694000</td>
+      <td>-71.797900</td>
+      <td>689</td>
+      <td>6</td>
+      <td>645</td>
+      <td>38.0</td>
+      <td>Turks and Caicos Islands, United Kingdom</td>
+      <td>20200930</td>
+      <td>1779.534067</td>
+      <td>0.870827</td>
+    </tr>
+    <tr>
+      <th>3944</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Unknown</td>
+      <td>United Kingdom</td>
+      <td>2020-10-01 04:23:42</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>Unknown, United Kingdom</td>
+      <td>20200930</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3945</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Wales</td>
+      <td>United Kingdom</td>
+      <td>2020-10-01 04:23:42</td>
+      <td>52.130700</td>
+      <td>-3.783700</td>
+      <td>23985</td>
+      <td>1616</td>
+      <td>0</td>
+      <td>22369.0</td>
+      <td>Wales, United Kingdom</td>
+      <td>20200930</td>
+      <td>764.194227</td>
+      <td>6.737544</td>
+    </tr>
+    <tr>
+      <th>3946</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>Uruguay</td>
-      <td>2020-05-01 02:32:28</td>
+      <td>2020-10-01 04:23:42</td>
       <td>-32.522800</td>
       <td>-55.765800</td>
-      <td>643</td>
-      <td>17</td>
-      <td>417</td>
-      <td>209</td>
+      <td>2046</td>
+      <td>48</td>
+      <td>1791</td>
+      <td>207.0</td>
       <td>Uruguay</td>
-      <td>2020-04-30</td>
+      <td>20200930</td>
+      <td>58.899274</td>
+      <td>2.346041</td>
     </tr>
     <tr>
-      <th>3169</th>
+      <th>3947</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>Uzbekistan</td>
-      <td>2020-05-01 02:32:28</td>
+      <td>2020-10-01 04:23:42</td>
       <td>41.377491</td>
       <td>64.585262</td>
-      <td>2039</td>
-      <td>9</td>
-      <td>1133</td>
-      <td>897</td>
+      <td>56717</td>
+      <td>470</td>
+      <td>53366</td>
+      <td>2881.0</td>
       <td>Uzbekistan</td>
-      <td>2020-04-30</td>
+      <td>20200930</td>
+      <td>169.460285</td>
+      <td>0.828676</td>
     </tr>
     <tr>
-      <th>3170</th>
+      <th>3948</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>Venezuela</td>
-      <td>2020-05-01 02:32:28</td>
+      <td>2020-10-01 04:23:42</td>
       <td>6.423800</td>
       <td>-66.589700</td>
-      <td>333</td>
-      <td>16</td>
-      <td>142</td>
-      <td>175</td>
+      <td>75122</td>
+      <td>628</td>
+      <td>65225</td>
+      <td>9269.0</td>
       <td>Venezuela</td>
-      <td>2020-04-30</td>
+      <td>20200930</td>
+      <td>264.179739</td>
+      <td>0.835973</td>
     </tr>
     <tr>
-      <th>3171</th>
+      <th>3949</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>Vietnam</td>
-      <td>2020-05-01 02:32:28</td>
+      <td>2020-10-01 04:23:42</td>
       <td>14.058324</td>
       <td>108.277199</td>
-      <td>270</td>
-      <td>0</td>
-      <td>219</td>
-      <td>51</td>
+      <td>1094</td>
+      <td>35</td>
+      <td>1010</td>
+      <td>49.0</td>
       <td>Vietnam</td>
-      <td>2020-04-30</td>
+      <td>20200930</td>
+      <td>1.123912</td>
+      <td>3.199269</td>
     </tr>
     <tr>
-      <th>3172</th>
+      <th>3950</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>West Bank and Gaza</td>
-      <td>2020-05-01 02:32:28</td>
+      <td>2020-10-01 04:23:42</td>
       <td>31.952200</td>
       <td>35.233200</td>
-      <td>344</td>
-      <td>2</td>
-      <td>76</td>
-      <td>266</td>
+      <td>39899</td>
+      <td>311</td>
+      <td>31743</td>
+      <td>7845.0</td>
       <td>West Bank and Gaza</td>
-      <td>2020-04-30</td>
+      <td>20200930</td>
+      <td>782.116181</td>
+      <td>0.779468</td>
     </tr>
     <tr>
-      <th>3173</th>
+      <th>3951</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>Western Sahara</td>
-      <td>2020-05-01 02:32:28</td>
+      <td>2020-10-01 04:23:42</td>
       <td>24.215500</td>
       <td>-12.885800</td>
-      <td>6</td>
-      <td>0</td>
-      <td>5</td>
+      <td>10</td>
       <td>1</td>
+      <td>8</td>
+      <td>1.0</td>
       <td>Western Sahara</td>
-      <td>2020-04-30</td>
+      <td>20200930</td>
+      <td>1.674116</td>
+      <td>10.000000</td>
     </tr>
     <tr>
-      <th>3174</th>
+      <th>3952</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>Yemen</td>
-      <td>2020-05-01 02:32:28</td>
+      <td>2020-10-01 04:23:42</td>
       <td>15.552727</td>
       <td>48.516388</td>
-      <td>6</td>
-      <td>2</td>
-      <td>1</td>
-      <td>3</td>
+      <td>2034</td>
+      <td>587</td>
+      <td>1286</td>
+      <td>161.0</td>
       <td>Yemen</td>
-      <td>2020-04-30</td>
+      <td>20200930</td>
+      <td>6.819561</td>
+      <td>28.859390</td>
     </tr>
     <tr>
-      <th>3175</th>
+      <th>3953</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>Zambia</td>
-      <td>2020-05-01 02:32:28</td>
+      <td>2020-10-01 04:23:42</td>
       <td>-13.133897</td>
       <td>27.849332</td>
-      <td>106</td>
-      <td>3</td>
-      <td>55</td>
-      <td>48</td>
+      <td>14759</td>
+      <td>332</td>
+      <td>13959</td>
+      <td>468.0</td>
       <td>Zambia</td>
-      <td>2020-04-30</td>
+      <td>20200930</td>
+      <td>80.281959</td>
+      <td>2.249475</td>
     </tr>
     <tr>
-      <th>3176</th>
+      <th>3954</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>Zimbabwe</td>
-      <td>2020-05-01 02:32:28</td>
+      <td>2020-10-01 04:23:42</td>
       <td>-19.015438</td>
       <td>29.154857</td>
-      <td>40</td>
-      <td>4</td>
-      <td>5</td>
-      <td>31</td>
+      <td>7838</td>
+      <td>228</td>
+      <td>6303</td>
+      <td>1307.0</td>
       <td>Zimbabwe</td>
-      <td>2020-04-30</td>
+      <td>20200930</td>
+      <td>52.735238</td>
+      <td>2.908905</td>
     </tr>
   </tbody>
 </table>
