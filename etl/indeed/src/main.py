@@ -77,31 +77,29 @@ def CONFIG(env):
 
 def LOGGER(env):
     """"""
-    f = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    l = logging.getLogger(__name__)
+    fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    formatter = logging.Formatter(fmt)
+    logger = logging.getLogger(__name__)
 
     if env=='dev':
-        lvl = logging.DEBUG
-        # log to stdout while in dev
-        s = None
-        h = logging.StreamHandler(sys.stdout)
+        level = logging.DEBUG
+        feed = sys.stdout
     elif env=='qa':
-        lvl = logging.WARNING
-        s = io.StringIO()
-        h = logging.StreamHandler(s)
+        level = logging.INFO
+        feed = io.StringIO()
     elif env=='prod':
-        lvl = logging.ERROR
-        s = io.StringIO()
-        h = logging.StreamHandler(s)
+        level = logging.WARNING
+        feed = io.StringIO()
     else:
         raise Exception('Unknown environment.')
 
-    h.setFormatter(f)
-    h.setLevel(lvl)
-    l.setLevel(lvl)
-    l.addHandler(h)
+    handler = logging.StreamHandler(feed)
+    handler.setFormatter(formatter)
+    handler.setLevel(level)
+    logger.addHandler(handler)
+    logger.setLevel(level)
 
-    return l,s
+    return logger,feed
 
 def URL(url,titles,locations,replace,pages=1):
     """"""
