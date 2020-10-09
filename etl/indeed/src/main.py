@@ -265,14 +265,15 @@ def ETL(query):
         # load data
         logger.info('Loading {} rows into DynamoDB'.format(len(posts)))
         failed_loads = LOAD(posts,**CFG['db'])
-        # sleep random intervals to not get caught scraping
-        browse = random.randint(2,6)
-        sleep = max((browse - (datetime.datetime.now() - begin).seconds),0)
-        logger.info('Sleeping for {} seconds'.format(sleep))
-        time.sleep(sleep)
     else:
         logger.DEBUG('Failed query url: {}'.format(query['url']))
         failed_query=query
+
+    # sleep random intervals to not get caught scraping
+    browse = random.randint(2,6)
+    sleep = max((browse - (datetime.datetime.now() - begin).seconds),0)
+    logger.info('Sleeping for {} seconds'.format(sleep))
+    time.sleep(sleep)
 
     return {
         'posts': data,
@@ -346,15 +347,16 @@ def HANDLER(event, context):
         #         # allocate data
         #         POSTS.append(posts)
         #         FAILED_LOADS+=failed_loads
-        #         # sleep random intervals to not get caught scraping
-        #         browse = random.randint(2,6)
-        #         sleep = max((browse - (datetime.datetime.now() - begin).seconds),0)
-        #         LOG.info('Sleeping for {} seconds'.format(sleep))
-        #         time.sleep(sleep)
         #     else:
         #         LOG.DEBUG('Failed query url: {}'.format(query['url']))
         #         failed_query = query
         #         FAILED_QUERIES.append(failed_query)
+        #
+        #     # sleep random intervals to not get caught scraping
+        #     browse = random.randint(2,6)
+        #     sleep = max((browse - (datetime.datetime.now() - begin).seconds),0)
+        #     LOG.info('Sleeping for {} seconds'.format(sleep))
+        #     time.sleep(sleep)
 
         ########################################################
         ### v2 - asynchonous threading w/ concurrent futures ###
