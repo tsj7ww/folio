@@ -14,7 +14,7 @@ artifacts/
 layers/
 layer/
 env/
-
+*.sqlite
 
 
 ##############
