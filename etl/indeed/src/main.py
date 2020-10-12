@@ -247,7 +247,8 @@ def ETL(query):
     """"""
     logger = logging.getLogger(__name__)
 
-    start_etl = datetime.datetime.now()
+    dttm = datetime.datetime
+    start_etl = dttm.now()
     # prep vars
     query_data = {'q_title':query['title'].upper(),'q_location':query['location'].upper()}
     posts = []
@@ -271,7 +272,7 @@ def ETL(query):
 
     # sleep random intervals to not get caught scraping
     browse = random.randint(2,6)
-    sleep = max((browse - (datetime.datetime.now() - start_etl).seconds),0)
+    sleep = max((browse - (dttm.now() - start_etl).seconds),0)
     logger.info('Sleeping for {} seconds'.format(sleep))
     time.sleep(sleep)
 
@@ -285,10 +286,11 @@ def ETL(query):
 
 def HANDLER(event, context):
     """"""
-    start_run = datetime.datetime.now()
+    dttm = datetime.datetime
+    start_run = dttm.now()
     env = 'dev'
 
-    if not event: # developing locally
+    if not event: # event=None -> developing locally
         with open(os.path.join(os.getcwd(),'..','ref','metadata.json'),'r') as f:
             META = json.load(f)
     with open(os.path.join(os.getcwd(),'env/{}'.format(env)),'r') as f:
@@ -311,7 +313,6 @@ def HANDLER(event, context):
         }
     else:
         raise Exception('Unknown environment')
-
 
     try:
         QUERIES = []
@@ -336,12 +337,12 @@ def HANDLER(event, context):
         # email summary
         LOG.info('Sending email')
         body = BODY(POSTS)
-        # EMAIL(body,CFG['email'])
+        EMAIL(body,CFG['email'])
         # alert
         LOG.info('Publishing event')
-        # ALERT(CFG['alert'],success=True)
+        ALERT(CFG['alert'],success=True)
         # check runtime
-        runtime = (datetime.datetime.now()-start_run).seconds
+        runtime = (dttm.now()-start_run).seconds
         LOG.info('Job complete after {} seconds.'.format(runtime))
 
         return {
