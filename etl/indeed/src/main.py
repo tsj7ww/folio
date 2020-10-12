@@ -193,19 +193,19 @@ def EXTRACT(soup):
     return posts
 
 def LOAD(data,url,table):
-    """
-    """
+    """"""
     logger = logging.getLogger(__name__)
 
-    fails = []
+    # fails = []
     db = boto3.resource('dynamodb', endpoint_url=url)
     tbl = db.Table(table)
     with tbl.batch_writer() as batch:
         for item in data:
             response = batch.put_item(Item=item)
-            if response:
-                fails.append(response)
-    return fails
+            # error handling - batch does this automatically
+            # if response:
+            #     fails.append(response)
+    # return fails
 
 def BODY(data):
     """"""
@@ -215,7 +215,7 @@ def BODY(data):
     template = '<li>{TITLE} at {COMPANY} in {CITY}, {STATE} - <a href=\'{URL}\'>Link</a></li>'
     groups = set((item['q_title'],item['q_location']) for item in data)
     for group in groups:
-        rows = '<b>{TTL} in {LOC}</b>:<br><ul>'.format(TTL=group[0],LOC=group[1])
+        rows = '<b>{TITLE} in {LOCATION}</b>:<br><ul>'.format(TITLE=group[0],LOCATION=group[1])
         for item in data:
             if group==(item['q_title'],item['q_location']):
                 rows+=template.format(
@@ -223,7 +223,7 @@ def BODY(data):
                     TITLE=item['title'],COMPANY=item['company'],
                     CITY=item['city'],STATE=item['state']
                 )
-        body+=(row+'</ul>')
+        body+=(rows+'</ul>')
 
     return body
 
@@ -247,12 +247,12 @@ def ETL(query):
     """"""
     logger = logging.getLogger(__name__)
 
-    begin = datetime.datetime.now()
+    start_etl = datetime.datetime.now()
     # prep vars
     query_data = {'q_title':query['title'].upper(),'q_location':query['location'].upper()}
     posts = []
     failed_query = None
-    failed_loads = []
+    # failed_loads = []
     # get data
     logger.info('Make get request')
     response = requests.get(query['url'])
@@ -264,40 +264,40 @@ def ETL(query):
         posts = [{**query_data,**post} for post in EXTRACT(query['soup'])]
         # load data
         logger.info('Loading {} rows into DynamoDB'.format(len(posts)))
-        failed_loads = LOAD(posts,**CFG['db'])
+        # LOAD(posts,**CFG['db'])
     else:
         logger.DEBUG('Failed query url: {}'.format(query['url']))
-        failed_query=query
+        failed_query = query
 
     # sleep random intervals to not get caught scraping
     browse = random.randint(2,6)
-    sleep = max((browse - (datetime.datetime.now() - begin).seconds),0)
+    sleep = max((browse - (datetime.datetime.now() - start_etl).seconds),0)
     logger.info('Sleeping for {} seconds'.format(sleep))
     time.sleep(sleep)
 
     return {
-        'posts': data,
-        'failed_queries': failed_query,
-        'failed_loads': failed_loads,
+        'posts': posts,
+        'failed_query': failed_query,
+        # 'failed_loads': failed_loads,
     }
 
 
-# if __name__=="__main__":
+
 def HANDLER(event, context):
     """"""
-    # if not event: # developing locally
-    #     with open(os.path.join(os.getcwd(),'metadata.json'),'r') as f:
-    #         META = json.load(f)
-
-    start = datetime.datetime.now()
+    start_run = datetime.datetime.now()
     env = 'dev'
+
+    if not event: # developing locally
+        with open(os.path.join(os.getcwd(),'..','ref','metadata.json'),'r') as f:
+            META = json.load(f)
     with open(os.path.join(os.getcwd(),'env/{}'.format(env)),'r') as f:
         os.environ.update(**json.load(f))
 
     LOG,FEED = LOGGER(env)
     CFG = CONFIG(env)
 
-    # temporarily use static values -> transition to using event
+    # temporarily use static values -> transition to using events / API
     if env=='dev':
         fails = None
         params = {
@@ -317,76 +317,38 @@ def HANDLER(event, context):
         QUERIES = []
         POSTS = []
         FAILED_QUERIES = []
-        FAILED_LOADS = []
+        # FAILED_LOADS = []
 
         LOG.info('Setup complete - generate urls.')
         # use generator to minimize downtime between requests
         QUERIES = QUERY_GENERATOR(**params,**CFG['indeed'])
-
-        ##################################
-        ### v1 - synchonous processing ###
-        ##################################
-        # for query in QUERIES:
-        #     begin = datetime.datetime.now()
-        #     # prep vars
-        #     query_data = {'q_title':query['title'].upper(),'q_location':query['location'].upper()}
-        #     posts = []
-        #     failed_query = None
-        #     failed_loads = []
-        #     # get data
-        #     LOG.info('Make get request')
-        #     response = requests.get(query['url'])
-        #     if response.status_code == requests.codes.ok:
-        #         query['soup'] = bs4.BeautifulSoup(response.text,'html.parser')
-        #         # extract data
-        #         LOG.info('Transform soup HTML to data')
-        #         posts = [{**query_data,**i} for i in EXTRACT(query['soup'])]
-        #         # load data
-        #         LOG.info('Loading {} rows into DynamoDB'.format(len(posts)))
-        #         failed_loads = LOAD(posts,**CFG['db'])
-        #         # allocate data
-        #         POSTS.append(posts)
-        #         FAILED_LOADS+=failed_loads
-        #     else:
-        #         LOG.DEBUG('Failed query url: {}'.format(query['url']))
-        #         failed_query = query
-        #         FAILED_QUERIES.append(failed_query)
-        #
-        #     # sleep random intervals to not get caught scraping
-        #     browse = random.randint(2,6)
-        #     sleep = max((browse - (datetime.datetime.now() - begin).seconds),0)
-        #     LOG.info('Sleeping for {} seconds'.format(sleep))
-        #     time.sleep(sleep)
-
-        ########################################################
-        ### v2 - asynchonous threading w/ concurrent futures ###
-        ########################################################
+        # asynchronous execution
         with concurrent.futures.ThreadPoolExecutor() as executor:
-            results = executor.map(ETL,queries)
-            for result in concurrent.futures.as_completed(results):
+            results = executor.map(ETL, QUERIES)
+            for result in results: # concurrent.futures.as_completed(results)
                 try:
-                    POSTS.append(result['posts'])
-                    FAILED_LOADS+=result['failed_loads']
+                    POSTS+=result['posts']
                     FAILED_QUERIES.append(result['failed_query'])
+                    # FAILED_LOADS+=result['failed_loads']
                 except:
                     raise
 
         # email summary
         LOG.info('Sending email')
         body = BODY(POSTS)
-        EMAIL(body,CFG['email'])
+        # EMAIL(body,CFG['email'])
         # alert
         LOG.info('Publishing event')
-        ALERT(CFG['alert'],success=True)
+        # ALERT(CFG['alert'],success=True)
         # check runtime
-        runtime = (datetime.datetime.now()-start).seconds
-        LOG.info('Job complete after {} seconds!'.format(runtime))
+        runtime = (datetime.datetime.now()-start_run).seconds
+        LOG.info('Job complete after {} seconds.'.format(runtime))
 
         return {
             'status': 'success',
             'summary': '{} posts pulled in {} seconds.'.format(len(POSTS),runtime),
-            'data': POSTS,
-            'fails': fails
+            # 'data': POSTS,
+            # 'fails': fails
         }
 
     except Exception as e:
@@ -398,5 +360,4 @@ def HANDLER(event, context):
             'error': err
         }
 
-# print(HANDLER(None,None)) # testing
-# PROD changes: uncomment AWS service code, return JSON response
+#print(HANDLER(None,None))
