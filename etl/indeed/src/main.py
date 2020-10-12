@@ -265,7 +265,7 @@ def ETL(query):
         posts = [{**query_data,**post} for post in EXTRACT(query['soup'])]
         # load data
         logger.info('Loading {} rows into DynamoDB'.format(len(posts)))
-        # LOAD(posts,**CFG['db'])
+        LOAD(posts,**CFG['db'])
     else:
         logger.DEBUG('Failed query url: {}'.format(query['url']))
         failed_query = query
@@ -326,7 +326,7 @@ def HANDLER(event, context):
         # asynchronous execution
         with concurrent.futures.ThreadPoolExecutor() as executor:
             results = executor.map(ETL, QUERIES)
-            for result in results: # concurrent.futures.as_completed(results)
+            for result in results:
                 try:
                     POSTS+=result['posts']
                     FAILED_QUERIES.append(result['failed_query'])
