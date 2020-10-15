@@ -6,7 +6,7 @@ __pycache/
 *.parquet
 *.parquet.gzip
 *.dat
-*.pdf
+#*.pdf # for including resume pdf
 *.log
 *.zip
 data/
