@@ -1,5 +1,5 @@
 # Folio
-Repo for storing curated projects.
+Repo for storing curated projects. For more info about me, feel free to read my [resume](./resume.pdf).
 
 ### Analysis
 ##### [Covid19](https://github.com/tsj7ww/folio/tree/master/analysis/covid19)
