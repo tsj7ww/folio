@@ -1,7 +1,14 @@
-# Folio
+# Portfolio
 Repo for storing curated projects. For more info about me, feel free to read my [resume](./resume.pdf).
 
-### Analysis
+### Data Engineering
+##### [Indeed.com](./etl/indeed)
+- Description: Function to scrape job posting data from Indeed.com.
+- Languages: Python, Shell
+- Technology: AWS (Lambda, DynamoDB, S3, Events, SNS, SES)
+- In Progress: turn into API for personal website
+
+### Data Analysis
 ##### [Baseball](./analysis/baseball)
 - Description: Analysis on baseball data and statistics from the Lahman Baseball Database.
 - Languages: Python
@@ -13,14 +20,8 @@ Repo for storing curated projects. For more info about me, feel free to read my 
 - Technology: Pandas, Apache Parquet, Jupyter Notebook
 - In Progress: Docker, Analysis (matplotlib, scipy, tensorflow)
 
-### ETL
-##### [Indeed.com](./etl/indeed)
-- Description: Function to scrape job posting data from Indeed.com.
-- Languages: Python, Shell
-- Technology: AWS (Lambda, DynamoDB, S3, Events, SNS, SES)
-- In Progress: turn into API for personal website
 
-### Web Dev
+### Web Development
 ##### Personal Website
 - Description - Static website hosted by GitHub.
 - Languages: JavaScript, HTML, CSS
