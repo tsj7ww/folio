@@ -2,16 +2,16 @@
 Repo for storing curated projects. For more info about me, feel free to read my [resume](./resume.pdf).
 
 ### Analysis
+##### [Baseball](./analysis/baseball)
+- Description: Analysis on baseball data and statistics from the Lahman Baseball Database.
+- Languages: Python
+- Technology: MatPlotLib, SkLearn, Pandas, SQLite3, Jupyter Notebook
+- In Progress: ...
 ##### [Covid19](./analysis/covid19)
 - Description: Analysis on Covid19 data provided by Johns Hopkins University and demographic data pulled from various sources.
 - Languages: Python, Shell
 - Technology: Pandas, Apache Parquet, Jupyter Notebook
 - In Progress: Docker, Analysis (matplotlib, scipy, tensorflow)
-##### [Baseball](./analysis/baseball)
-- Description: Analysis on baseball data and statistics from the Lahman Baseball Database.
-- Languages: Python
-- Technology: SkLearn, Pandas, SQLite3, Jupyter Notebook
-- In Progress: ...
 
 ### ETL
 ##### [Indeed.com](./etl/indeed)
