@@ -1,6 +1,3 @@
----
-title: hello world
----
 # Folio
 Repo for storing curated projects. For more info about me, feel free to read my [resume](./resume.pdf).
 
@@ -13,7 +10,7 @@ Repo for storing curated projects. For more info about me, feel free to read my 
 ##### [Baseball](./analysis/baseball)
 - Description: Analysis on baseball data and statistics from the Lahman Baseball Database.
 - Languages: Python
-- Technology: Pandas, SQLite3, Jupyter Notebook
+- Technology: SkLearn, Pandas, SQLite3, Jupyter Notebook
 - In Progress: ...
 
 ### ETL
