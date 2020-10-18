@@ -1,3 +1,6 @@
+---
+title: hello world
+---
 # Folio
 Repo for storing curated projects. For more info about me, feel free to read my [resume](./resume.pdf).
 
