@@ -1,6 +1,5 @@
 # Baseball Analyis
 Analysis on baseball data provided by Sean Lahman.
----
 
 ### [EDA](./prep.ipynb)
 Create Markdown tables of data schemas.
