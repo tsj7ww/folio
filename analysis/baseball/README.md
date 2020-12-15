@@ -1,9 +1,11 @@
 # Baseball Analyis
-Analysis on baseball data provided by Sean Lahman.
+Analysis on baseball statistics. Data provided by Sean Lahman.
+
+### Tech
+...
 
 ### [EDA](./prep.ipynb)
 Create Markdown tables of data schemas.
-
 
 ### Analysis
 
@@ -23,3 +25,8 @@ Create Markdown tables of data schemas.
 2. Save data to zipped (snappy?) Parquet file
 3. Load table into S3
 4. Repeat for all tables in the database
+
+---
+
+### ToDo
+1. ...
