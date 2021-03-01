@@ -404,7 +404,7 @@
       <td>NaN</td>
     </tr>
     <tr>
-      <th>3935</th>
+      <th>3938</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>Channel Islands</td>
@@ -422,7 +422,7 @@
       <td>7.218045</td>
     </tr>
     <tr>
-      <th>3936</th>
+      <th>3939</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>England</td>
@@ -440,7 +440,7 @@
       <td>9.638154</td>
     </tr>
     <tr>
-      <th>3937</th>
+      <th>3940</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>Falkland Islands (Malvinas)</td>
@@ -458,7 +458,7 @@
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>3938</th>
+      <th>3941</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>Gibraltar</td>
@@ -476,7 +476,7 @@
       <td>0.000000</td>
     </tr>
     <tr>
-      <th>3939</th>
+      <th>3942</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>Isle of Man</td>
@@ -494,7 +494,7 @@
       <td>7.058824</td>
     </tr>
     <tr>
-      <th>3940</th>
+      <th>3943</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>Montserrat</td>
@@ -512,7 +512,7 @@
       <td>7.692308</td>
     </tr>
     <tr>
-      <th>3941</th>
+      <th>3944</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>Northern Ireland</td>
@@ -530,7 +530,25 @@
       <td>4.951680</td>
     </tr>
     <tr>
-      <th>3942</th>
+      <th>3945</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Saint Helena, Ascension and Tristan da Cunha</td>
+      <td>United Kingdom</td>
+      <td>2020-10-01 04:23:42</td>
+      <td>-7.946700</td>
+      <td>-14.355900</td>
+      <td>2</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0.0</td>
+      <td>Saint Helena, Ascension and Tristan da Cunha, United Kingdom</td>
+      <td>2020-09-30</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3946</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>Scotland</td>
@@ -548,7 +566,7 @@
       <td>8.613733</td>
     </tr>
     <tr>
-      <th>3943</th>
+      <th>3947</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>Turks and Caicos Islands</td>
@@ -566,7 +584,7 @@
       <td>0.870827</td>
     </tr>
     <tr>
-      <th>3944</th>
+      <th>3948</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>Unknown</td>
@@ -584,7 +602,7 @@
       <td>NaN</td>
     </tr>
     <tr>
-      <th>3945</th>
+      <th>3949</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>Wales</td>
@@ -602,7 +620,7 @@
       <td>6.737544</td>
     </tr>
     <tr>
-      <th>3946</th>
+      <th>3950</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -620,7 +638,7 @@
       <td>2.346041</td>
     </tr>
     <tr>
-      <th>3947</th>
+      <th>3951</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -638,7 +656,7 @@
       <td>0.828676</td>
     </tr>
     <tr>
-      <th>3948</th>
+      <th>3952</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -656,7 +674,7 @@
       <td>0.835973</td>
     </tr>
     <tr>
-      <th>3949</th>
+      <th>3953</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -674,7 +692,7 @@
       <td>3.199269</td>
     </tr>
     <tr>
-      <th>3950</th>
+      <th>3954</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -692,25 +710,7 @@
       <td>0.779468</td>
     </tr>
     <tr>
-      <th>3951</th>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Western Sahara</td>
-      <td>2020-10-01 04:23:42</td>
-      <td>24.215500</td>
-      <td>-12.885800</td>
-      <td>10</td>
-      <td>1</td>
-      <td>8</td>
-      <td>1.0</td>
-      <td>Western Sahara</td>
-      <td>2020-09-30</td>
-      <td>1.674116</td>
-      <td>10.000000</td>
-    </tr>
-    <tr>
-      <th>3952</th>
+      <th>3955</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -728,7 +728,7 @@
       <td>28.859390</td>
     </tr>
     <tr>
-      <th>3953</th>
+      <th>3956</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -746,7 +746,7 @@
       <td>2.249475</td>
     </tr>
     <tr>
-      <th>3954</th>
+      <th>3957</th>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>

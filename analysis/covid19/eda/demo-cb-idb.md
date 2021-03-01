@@ -1,11 +1,11 @@
 # EDA - DEMO-CB-IDB Files 
 
 #### Column Name [IDX] -  Dtype (Head / Tail) 
-- **AREA_KM2** [0] - object (180 / 386847) 
-- **NAME** [1] - object (Aruba / Zimbabwe) 
+- **AREA_KM2** [0] - object (468 / 386847) 
+- **NAME** [1] - object (Andorra / Zimbabwe) 
 - **AGE** [2] - object (0 / 100) 
-- **POP** [3] - object (1427 / 59) 
-- **FIPS** [4] - object (AA / ZI) 
+- **POP** [3] - object (615 / 59) 
+- **FIPS** [4] - object (AN / ZI) 
 - **SEX** [5] - object (0 / 2) 
 - **TIME** [6] - object (2019 / 2019) 
 
@@ -29,201 +29,201 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>0</td>
-      <td>1427</td>
-      <td>AA</td>
+      <td>615</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>1</td>
-      <td>1424</td>
-      <td>AA</td>
+      <td>634</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>2</td>
-      <td>1416</td>
-      <td>AA</td>
+      <td>654</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>3</td>
-      <td>1412</td>
-      <td>AA</td>
+      <td>680</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>4</td>
-      <td>1401</td>
-      <td>AA</td>
+      <td>704</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>5</td>
-      <td>1397</td>
-      <td>AA</td>
+      <td>739</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>6</td>
-      <td>1394</td>
-      <td>AA</td>
+      <td>769</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>7</td>
-      <td>1388</td>
-      <td>AA</td>
+      <td>801</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>8</td>
-      <td>1376</td>
-      <td>AA</td>
+      <td>830</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>9</td>
-      <td>1367</td>
-      <td>AA</td>
+      <td>854</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>10</td>
-      <td>1358</td>
-      <td>AA</td>
+      <td>877</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>11</td>
-      <td>1354</td>
-      <td>AA</td>
+      <td>890</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>12</td>
-      <td>1352</td>
-      <td>AA</td>
+      <td>897</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>13</td>
-      <td>1345</td>
-      <td>AA</td>
+      <td>914</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>14</td>
-      <td>1345</td>
-      <td>AA</td>
+      <td>909</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>15</td>
-      <td>1334</td>
-      <td>AA</td>
+      <td>906</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>16</td>
-      <td>1335</td>
-      <td>AA</td>
+      <td>921</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>17</td>
-      <td>1328</td>
-      <td>AA</td>
+      <td>936</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>18</td>
-      <td>1340</td>
-      <td>AA</td>
+      <td>918</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>180</td>
-      <td>Aruba</td>
+      <td>468</td>
+      <td>Andorra</td>
       <td>19</td>
-      <td>1371</td>
-      <td>AA</td>
+      <td>924</td>
+      <td>AN</td>
       <td>0</td>
       <td>2019</td>
     </tr>
@@ -232,7 +232,7 @@
       <td>386847</td>
       <td>Zimbabwe</td>
       <td>81</td>
-      <td>12320</td>
+      <td>12322</td>
       <td>ZI</td>
       <td>2</td>
       <td>2019</td>
@@ -262,7 +262,7 @@
       <td>386847</td>
       <td>Zimbabwe</td>
       <td>84</td>
-      <td>9300</td>
+      <td>9299</td>
       <td>ZI</td>
       <td>2</td>
       <td>2019</td>
@@ -272,7 +272,7 @@
       <td>386847</td>
       <td>Zimbabwe</td>
       <td>85</td>
-      <td>8126</td>
+      <td>8125</td>
       <td>ZI</td>
       <td>2</td>
       <td>2019</td>
@@ -292,7 +292,7 @@
       <td>386847</td>
       <td>Zimbabwe</td>
       <td>87</td>
-      <td>5395</td>
+      <td>5396</td>
       <td>ZI</td>
       <td>2</td>
       <td>2019</td>
@@ -332,7 +332,7 @@
       <td>386847</td>
       <td>Zimbabwe</td>
       <td>91</td>
-      <td>1641</td>
+      <td>1640</td>
       <td>ZI</td>
       <td>2</td>
       <td>2019</td>
@@ -352,7 +352,7 @@
       <td>386847</td>
       <td>Zimbabwe</td>
       <td>93</td>
-      <td>793</td>
+      <td>794</td>
       <td>ZI</td>
       <td>2</td>
       <td>2019</td>
@@ -372,7 +372,7 @@
       <td>386847</td>
       <td>Zimbabwe</td>
       <td>95</td>
-      <td>349</td>
+      <td>348</td>
       <td>ZI</td>
       <td>2</td>
       <td>2019</td>
@@ -382,7 +382,7 @@
       <td>386847</td>
       <td>Zimbabwe</td>
       <td>96</td>
-      <td>220</td>
+      <td>221</td>
       <td>ZI</td>
       <td>2</td>
       <td>2019</td>
@@ -392,7 +392,7 @@
       <td>386847</td>
       <td>Zimbabwe</td>
       <td>97</td>
-      <td>138</td>
+      <td>137</td>
       <td>ZI</td>
       <td>2</td>
       <td>2019</td>
@@ -412,7 +412,7 @@
       <td>386847</td>
       <td>Zimbabwe</td>
       <td>99</td>
-      <td>47</td>
+      <td>48</td>
       <td>ZI</td>
       <td>2</td>
       <td>2019</td>

@@ -279,66 +279,66 @@
     </tr>
     <tr>
       <th>16</th>
-      <td>84</td>
-      <td>BZ</td>
-      <td>BLZ</td>
-      <td>84.0</td>
+      <td>5601</td>
+      <td>BE</td>
+      <td>BEL</td>
+      <td>56.0</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>Belize</td>
-      <td>17.189900</td>
-      <td>-88.497600</td>
-      <td>Belize</td>
-      <td>397621.0</td>
+      <td>Antwerp</td>
+      <td>Belgium</td>
+      <td>51.219500</td>
+      <td>4.402400</td>
+      <td>Antwerp, Belgium</td>
+      <td>1857986.0</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>204</td>
-      <td>BJ</td>
-      <td>BEN</td>
-      <td>204.0</td>
+      <td>5602</td>
+      <td>BE</td>
+      <td>BEL</td>
+      <td>56.0</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>Benin</td>
-      <td>9.307700</td>
-      <td>2.315800</td>
-      <td>Benin</td>
-      <td>12123198.0</td>
+      <td>Brussels</td>
+      <td>Belgium</td>
+      <td>50.850300</td>
+      <td>4.351700</td>
+      <td>Brussels, Belgium</td>
+      <td>1208542.0</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>64</td>
-      <td>BT</td>
-      <td>BTN</td>
-      <td>64.0</td>
+      <td>5603</td>
+      <td>BE</td>
+      <td>BEL</td>
+      <td>56.0</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>Bhutan</td>
-      <td>27.514200</td>
-      <td>90.433600</td>
-      <td>Bhutan</td>
-      <td>771612.0</td>
+      <td>East Flanders</td>
+      <td>Belgium</td>
+      <td>51.036200</td>
+      <td>3.737300</td>
+      <td>East Flanders, Belgium</td>
+      <td>1515064.0</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>68</td>
-      <td>BO</td>
-      <td>BOL</td>
-      <td>68.0</td>
+      <td>5604</td>
+      <td>BE</td>
+      <td>BEL</td>
+      <td>56.0</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>Bolivia</td>
-      <td>-16.290200</td>
-      <td>-63.588700</td>
-      <td>Bolivia</td>
-      <td>11673029.0</td>
+      <td>Flemish Brabant</td>
+      <td>Belgium</td>
+      <td>50.916700</td>
+      <td>4.583300</td>
+      <td>Flemish Brabant, Belgium</td>
+      <td>1146175.0</td>
     </tr>
     <tr>
-      <th>4133</th>
+      <th>4155</th>
       <td>84056007</td>
       <td>US</td>
       <td>USA</td>
@@ -353,7 +353,7 @@
       <td>14800.0</td>
     </tr>
     <tr>
-      <th>4134</th>
+      <th>4156</th>
       <td>84056009</td>
       <td>US</td>
       <td>USA</td>
@@ -368,7 +368,7 @@
       <td>13822.0</td>
     </tr>
     <tr>
-      <th>4135</th>
+      <th>4157</th>
       <td>84056011</td>
       <td>US</td>
       <td>USA</td>
@@ -383,7 +383,7 @@
       <td>7584.0</td>
     </tr>
     <tr>
-      <th>4136</th>
+      <th>4158</th>
       <td>84056013</td>
       <td>US</td>
       <td>USA</td>
@@ -398,7 +398,7 @@
       <td>39261.0</td>
     </tr>
     <tr>
-      <th>4137</th>
+      <th>4159</th>
       <td>84056015</td>
       <td>US</td>
       <td>USA</td>
@@ -413,7 +413,7 @@
       <td>13211.0</td>
     </tr>
     <tr>
-      <th>4138</th>
+      <th>4160</th>
       <td>84056017</td>
       <td>US</td>
       <td>USA</td>
@@ -428,7 +428,7 @@
       <td>4413.0</td>
     </tr>
     <tr>
-      <th>4139</th>
+      <th>4161</th>
       <td>84056019</td>
       <td>US</td>
       <td>USA</td>
@@ -443,7 +443,7 @@
       <td>8445.0</td>
     </tr>
     <tr>
-      <th>4140</th>
+      <th>4162</th>
       <td>84056021</td>
       <td>US</td>
       <td>USA</td>
@@ -458,7 +458,7 @@
       <td>99500.0</td>
     </tr>
     <tr>
-      <th>4141</th>
+      <th>4163</th>
       <td>84056023</td>
       <td>US</td>
       <td>USA</td>
@@ -473,7 +473,7 @@
       <td>19830.0</td>
     </tr>
     <tr>
-      <th>4142</th>
+      <th>4164</th>
       <td>84056025</td>
       <td>US</td>
       <td>USA</td>
@@ -488,7 +488,7 @@
       <td>79858.0</td>
     </tr>
     <tr>
-      <th>4143</th>
+      <th>4165</th>
       <td>84056027</td>
       <td>US</td>
       <td>USA</td>
@@ -503,7 +503,7 @@
       <td>2356.0</td>
     </tr>
     <tr>
-      <th>4144</th>
+      <th>4166</th>
       <td>84056029</td>
       <td>US</td>
       <td>USA</td>
@@ -518,7 +518,7 @@
       <td>29194.0</td>
     </tr>
     <tr>
-      <th>4145</th>
+      <th>4167</th>
       <td>84056031</td>
       <td>US</td>
       <td>USA</td>
@@ -533,7 +533,7 @@
       <td>8393.0</td>
     </tr>
     <tr>
-      <th>4146</th>
+      <th>4168</th>
       <td>84056033</td>
       <td>US</td>
       <td>USA</td>
@@ -548,7 +548,7 @@
       <td>30485.0</td>
     </tr>
     <tr>
-      <th>4147</th>
+      <th>4169</th>
       <td>84056035</td>
       <td>US</td>
       <td>USA</td>
@@ -563,7 +563,7 @@
       <td>9831.0</td>
     </tr>
     <tr>
-      <th>4148</th>
+      <th>4170</th>
       <td>84056037</td>
       <td>US</td>
       <td>USA</td>
@@ -578,7 +578,7 @@
       <td>42343.0</td>
     </tr>
     <tr>
-      <th>4149</th>
+      <th>4171</th>
       <td>84056039</td>
       <td>US</td>
       <td>USA</td>
@@ -593,7 +593,7 @@
       <td>23464.0</td>
     </tr>
     <tr>
-      <th>4150</th>
+      <th>4172</th>
       <td>84056041</td>
       <td>US</td>
       <td>USA</td>
@@ -608,7 +608,7 @@
       <td>20226.0</td>
     </tr>
     <tr>
-      <th>4151</th>
+      <th>4173</th>
       <td>84056043</td>
       <td>US</td>
       <td>USA</td>
@@ -623,7 +623,7 @@
       <td>7805.0</td>
     </tr>
     <tr>
-      <th>4152</th>
+      <th>4174</th>
       <td>84056045</td>
       <td>US</td>
       <td>USA</td>

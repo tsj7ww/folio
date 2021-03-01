@@ -1,13 +1,13 @@
 # EDA - COVID-JHU-TS-ERR Files 
 
 #### Column Name [IDX] -  Dtype (Head / Tail) 
-- **UPDATE DATE** [0] - object (4/7/2020 / 10/06/2020) 
+- **UPDATE DATE** [0] - object (4/7/2020 / 02/25/2021) 
 - **FILE** [1] - object (time_series_covid19_confirmed_US.csv / time_series_covid19_deaths_global.csv) 
-- **LOCATION** [2] - object (Viginia Island / Liechtenstein) 
-- **FIELD UPDATED** [3] - object (3/29/2020 / 06/30/2020) 
-- **OLD** [4] - object (0 / 2) 
-- **NEW** [5] - object (23 / 1) 
-- **COMMENTS** [6] - object (New York Times / correction) 
+- **LOCATION** [2] - object (Viginia Island / Japan) 
+- **FIELD UPDATED** [3] - object (3/29/2020 / 02/10/2021) 
+- **OLD** [4] - object (0 / 6722) 
+- **NEW** [5] - object (23 / 6723) 
+- **COMMENTS** [6] - object (New York Times / Correct Japan deaths data) 
 
 
 
@@ -228,204 +228,204 @@
       <td>add 371 decesEhpad</td>
     </tr>
     <tr>
-      <th>497</th>
-      <td>9/08/2020</td>
-      <td>time_series_covid19_confirmed_global.csv</td>
-      <td>Colombia</td>
-      <td>9/05/2020</td>
-      <td>650055</td>
-      <td>658456</td>
-      <td>Update from Colombia news source</td>
-    </tr>
-    <tr>
-      <th>498</th>
-      <td>9/08/2020</td>
-      <td>time_series_covid19_confirmed_global.csv</td>
-      <td>Colombia</td>
-      <td>9/07/2020</td>
-      <td>666521</td>
-      <td>671848</td>
-      <td>Update from Colombia news source</td>
-    </tr>
-    <tr>
-      <th>499</th>
-      <td>9/08/2020</td>
+      <th>1034</th>
+      <td>02/25/2021</td>
       <td>time_series_covid19_deaths_global.csv</td>
-      <td>Colombia</td>
-      <td>8/22/2020</td>
-      <td>16568</td>
-      <td>16968</td>
-      <td>Update from Colombia news source</td>
+      <td>Japan</td>
+      <td>01/07/2021</td>
+      <td>3674</td>
+      <td>3884</td>
+      <td>Correct Japan deaths data</td>
     </tr>
     <tr>
-      <th>500</th>
-      <td>9/08/2020</td>
+      <th>1035</th>
+      <td>02/25/2021</td>
       <td>time_series_covid19_deaths_global.csv</td>
-      <td>Colombia</td>
-      <td>9/04/2020</td>
-      <td>20618</td>
-      <td>20888</td>
-      <td>Update from Colombia news source</td>
+      <td>Japan</td>
+      <td>01/08/2021</td>
+      <td>3746</td>
+      <td>3962</td>
+      <td>Correct Japan deaths data</td>
     </tr>
     <tr>
-      <th>501</th>
-      <td>9/08/2020</td>
+      <th>1036</th>
+      <td>02/25/2021</td>
       <td>time_series_covid19_deaths_global.csv</td>
-      <td>Colombia</td>
-      <td>9/05/2020</td>
-      <td>20886</td>
-      <td>21156</td>
-      <td>Update from Colombia news source</td>
+      <td>Japan</td>
+      <td>01/09/2021</td>
+      <td>3805</td>
+      <td>4021</td>
+      <td>Correct Japan deaths data</td>
     </tr>
     <tr>
-      <th>502</th>
-      <td>9/08/2020</td>
+      <th>1037</th>
+      <td>02/25/2021</td>
       <td>time_series_covid19_deaths_global.csv</td>
-      <td>Colombia</td>
-      <td>9/07/2020</td>
-      <td>21412</td>
-      <td>21615</td>
-      <td>Update from Colombia news source</td>
+      <td>Japan</td>
+      <td>01/10/2021</td>
+      <td>3850</td>
+      <td>4066</td>
+      <td>Correct Japan deaths data</td>
     </tr>
     <tr>
-      <th>503</th>
-      <td>9/08/2020</td>
-      <td>time_series_covid19_recovered_global.csv</td>
-      <td>Colombia</td>
-      <td>8/22/2020</td>
-      <td>348940</td>
-      <td>359792</td>
-      <td>Update from Colombia news source</td>
-    </tr>
-    <tr>
-      <th>504</th>
-      <td>9/08/2020</td>
-      <td>time_series_covid19_recovered_global.csv</td>
-      <td>Colombia</td>
-      <td>9/04/2020</td>
-      <td>489151</td>
-      <td>498221</td>
-      <td>Update from Colombia news source</td>
-    </tr>
-    <tr>
-      <th>505</th>
-      <td>9/08/2020</td>
-      <td>time_series_covid19_recovered_global.csv</td>
-      <td>Colombia</td>
-      <td>9/05/2020</td>
-      <td>498219</td>
-      <td>507770</td>
-      <td>Update from Colombia news source</td>
-    </tr>
-    <tr>
-      <th>506</th>
-      <td>9/08/2020</td>
-      <td>time_series_covid19_recovered_global.csv</td>
-      <td>Colombia</td>
-      <td>9/07/2020</td>
-      <td>518229</td>
-      <td>529279</td>
-      <td>Update from Colombia news source</td>
-    </tr>
-    <tr>
-      <th>507</th>
-      <td>09/25/2020</td>
-      <td>time_series_covid19_confirmed_US.csv</td>
-      <td>Wisconsin</td>
-      <td>09/15/2020, 09/16/2020, 09/17/2020</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>508</th>
-      <td>09/25/2020</td>
-      <td>time_series_covid19_deaths_US.csv</td>
-      <td>Wisconsin</td>
-      <td>09/15/2020, 09/16/2020, 09/17/2020</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>509</th>
-      <td>09/25/2020</td>
-      <td>time_series_covid19_confirmed_global.csv</td>
-      <td>Wisconsin</td>
-      <td>09/15/2020, 09/16/2020, 09/17/2020</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>510</th>
-      <td>09/25/2020</td>
+      <th>1038</th>
+      <td>02/25/2021</td>
       <td>time_series_covid19_deaths_global.csv</td>
-      <td>Wisconsin</td>
-      <td>09/15/2020, 09/16/2020, 09/17/2020</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>Japan</td>
+      <td>01/11/2021</td>
+      <td>3898</td>
+      <td>4114</td>
+      <td>Correct Japan deaths data</td>
     </tr>
     <tr>
-      <th>511</th>
-      <td>10/05/2020</td>
-      <td>time_series_covid19_confirmed_global.csv</td>
-      <td>Czechia</td>
-      <td>09/30/2020</td>
-      <td>68919</td>
-      <td>70763</td>
-      <td>Update from mzcr website</td>
-    </tr>
-    <tr>
-      <th>512</th>
-      <td>10/05/2020</td>
-      <td>time_series_covid19_confirmed_global.csv</td>
-      <td>Netherlands</td>
-      <td>9/27/2020</td>
-      <td>108361</td>
-      <td>111626</td>
-      <td>Update via Netherlands dashboard</td>
-    </tr>
-    <tr>
-      <th>513</th>
-      <td>10/05/2020</td>
-      <td>time_series_covid19_confirmed_global.csv</td>
-      <td>Netherlands</td>
-      <td>9/28/2020</td>
-      <td>110671</td>
-      <td>114540</td>
-      <td>Update via Netherlands dashboard</td>
-    </tr>
-    <tr>
-      <th>514</th>
-      <td>10/05/2020</td>
+      <th>1039</th>
+      <td>02/25/2021</td>
       <td>time_series_covid19_deaths_global.csv</td>
-      <td>Netherlands</td>
-      <td>9/27/2020</td>
-      <td>6366</td>
-      <td>6374</td>
-      <td>Update via Netherlands dashboard</td>
+      <td>Japan</td>
+      <td>01/12/2021</td>
+      <td>3962</td>
+      <td>4178</td>
+      <td>Correct Japan deaths data</td>
     </tr>
     <tr>
-      <th>515</th>
-      <td>10/05/2020</td>
+      <th>1040</th>
+      <td>02/25/2021</td>
       <td>time_series_covid19_deaths_global.csv</td>
-      <td>Netherlands</td>
-      <td>9/28/2020</td>
-      <td>6366</td>
-      <td>6380</td>
-      <td>Update via Netherlands dashboard</td>
+      <td>Japan</td>
+      <td>01/13/2021</td>
+      <td>4059</td>
+      <td>4275</td>
+      <td>Correct Japan deaths data</td>
     </tr>
     <tr>
-      <th>516</th>
-      <td>10/06/2020</td>
+      <th>1041</th>
+      <td>02/25/2021</td>
       <td>time_series_covid19_deaths_global.csv</td>
-      <td>Liechtenstein</td>
-      <td>06/30/2020</td>
-      <td>2</td>
-      <td>1</td>
-      <td>correction</td>
+      <td>Japan</td>
+      <td>01/14/2021</td>
+      <td>4119</td>
+      <td>4341</td>
+      <td>Correct Japan deaths data</td>
+    </tr>
+    <tr>
+      <th>1042</th>
+      <td>02/25/2021</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Japan</td>
+      <td>01/15/2021</td>
+      <td>4204</td>
+      <td>4419</td>
+      <td>Correct Japan deaths data</td>
+    </tr>
+    <tr>
+      <th>1043</th>
+      <td>02/25/2021</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Japan</td>
+      <td>01/16/2021</td>
+      <td>4261</td>
+      <td>4475</td>
+      <td>Correct Japan deaths data</td>
+    </tr>
+    <tr>
+      <th>1044</th>
+      <td>02/25/2021</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Japan</td>
+      <td>01/17/2021</td>
+      <td>4305</td>
+      <td>4524</td>
+      <td>Correct Japan deaths data</td>
+    </tr>
+    <tr>
+      <th>1045</th>
+      <td>02/25/2021</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Japan</td>
+      <td>01/18/2021</td>
+      <td>4366</td>
+      <td>4582</td>
+      <td>Correct Japan deaths data</td>
+    </tr>
+    <tr>
+      <th>1046</th>
+      <td>02/25/2021</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Japan</td>
+      <td>01/19/2021</td>
+      <td>4680</td>
+      <td>4686</td>
+      <td>Correct Japan deaths data</td>
+    </tr>
+    <tr>
+      <th>1047</th>
+      <td>02/25/2021</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Japan</td>
+      <td>01/20/2021</td>
+      <td>4779</td>
+      <td>4778</td>
+      <td>Correct Japan deaths data</td>
+    </tr>
+    <tr>
+      <th>1048</th>
+      <td>02/25/2021</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Japan</td>
+      <td>01/26/2021</td>
+      <td>5298</td>
+      <td>5297</td>
+      <td>Correct Japan deaths data</td>
+    </tr>
+    <tr>
+      <th>1049</th>
+      <td>02/25/2021</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Japan</td>
+      <td>01/27/2021</td>
+      <td>5388</td>
+      <td>5387</td>
+      <td>Correct Japan deaths data</td>
+    </tr>
+    <tr>
+      <th>1050</th>
+      <td>02/25/2021</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Japan</td>
+      <td>01/28/2021</td>
+      <td>5503</td>
+      <td>5500</td>
+      <td>Correct Japan deaths data</td>
+    </tr>
+    <tr>
+      <th>1051</th>
+      <td>02/25/2021</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Japan</td>
+      <td>02/06/2021</td>
+      <td>6373</td>
+      <td>6372</td>
+      <td>Correct Japan deaths data</td>
+    </tr>
+    <tr>
+      <th>1052</th>
+      <td>02/25/2021</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Japan</td>
+      <td>02/09/2021</td>
+      <td>6601</td>
+      <td>6602</td>
+      <td>Correct Japan deaths data</td>
+    </tr>
+    <tr>
+      <th>1053</th>
+      <td>02/25/2021</td>
+      <td>time_series_covid19_deaths_global.csv</td>
+      <td>Japan</td>
+      <td>02/10/2021</td>
+      <td>6722</td>
+      <td>6723</td>
+      <td>Correct Japan deaths data</td>
     </tr>
   </tbody>
 </table>
