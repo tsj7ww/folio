@@ -14,6 +14,7 @@
 - **COMBINED_KEY** [10] - object (Autauga, Alabama, US / Weston, Wyoming, US) 
 - **RECORD_DT** [11] - datetime64[ns] (2020-01-22 00:00:00 / 2021-02-28 00:00:00) 
 - **CASES** [12] - int64 (0 / 622) 
+- **CASES_CUM** [13] - int64 (0 / 61885) 
 
 
 
@@ -36,6 +37,7 @@
       <th>COMBINED_KEY</th>
       <th>RECORD_DT</th>
       <th>CASES</th>
+      <th>CASES_CUM</th>
     </tr>
   </thead>
   <tbody>
@@ -54,614 +56,653 @@
       <td>Autauga, Alabama, US</td>
       <td>2020-01-22</td>
       <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>84001003</td>
+      <td>84040017</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1003.0</td>
-      <td>Baldwin</td>
-      <td>Alabama</td>
+      <td>40017.0</td>
+      <td>Canadian</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>30.727750</td>
-      <td>-87.722071</td>
-      <td>Baldwin, Alabama, US</td>
+      <td>35.542606</td>
+      <td>-97.984656</td>
+      <td>Canadian, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>84001005</td>
+      <td>84040019</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1005.0</td>
-      <td>Barbour</td>
-      <td>Alabama</td>
+      <td>40019.0</td>
+      <td>Carter</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>31.868263</td>
-      <td>-85.387129</td>
-      <td>Barbour, Alabama, US</td>
+      <td>34.251038</td>
+      <td>-97.285525</td>
+      <td>Carter, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>84001007</td>
+      <td>84040021</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1007.0</td>
-      <td>Bibb</td>
-      <td>Alabama</td>
+      <td>40021.0</td>
+      <td>Cherokee</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>32.996421</td>
-      <td>-87.125115</td>
-      <td>Bibb, Alabama, US</td>
+      <td>35.906928</td>
+      <td>-94.999809</td>
+      <td>Cherokee, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>84001009</td>
+      <td>84040023</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1009.0</td>
-      <td>Blount</td>
-      <td>Alabama</td>
+      <td>40023.0</td>
+      <td>Choctaw</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>33.982109</td>
-      <td>-86.567906</td>
-      <td>Blount, Alabama, US</td>
+      <td>34.028074</td>
+      <td>-95.547711</td>
+      <td>Choctaw, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>84001011</td>
+      <td>84040025</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1011.0</td>
-      <td>Bullock</td>
-      <td>Alabama</td>
+      <td>40025.0</td>
+      <td>Cimarron</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>32.100305</td>
-      <td>-85.712655</td>
-      <td>Bullock, Alabama, US</td>
+      <td>36.748172</td>
+      <td>-102.517388</td>
+      <td>Cimarron, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>84001013</td>
+      <td>84040027</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1013.0</td>
-      <td>Butler</td>
-      <td>Alabama</td>
+      <td>40027.0</td>
+      <td>Cleveland</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>31.753001</td>
-      <td>-86.680575</td>
-      <td>Butler, Alabama, US</td>
+      <td>35.204135</td>
+      <td>-97.325196</td>
+      <td>Cleveland, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>84001015</td>
+      <td>84040029</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1015.0</td>
-      <td>Calhoun</td>
-      <td>Alabama</td>
+      <td>40029.0</td>
+      <td>Coal</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>33.774837</td>
-      <td>-85.826304</td>
-      <td>Calhoun, Alabama, US</td>
+      <td>34.588401</td>
+      <td>-96.297987</td>
+      <td>Coal, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>84001017</td>
+      <td>84040031</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1017.0</td>
-      <td>Chambers</td>
-      <td>Alabama</td>
+      <td>40031.0</td>
+      <td>Comanche</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>32.913601</td>
-      <td>-85.390727</td>
-      <td>Chambers, Alabama, US</td>
+      <td>34.659738</td>
+      <td>-98.471951</td>
+      <td>Comanche, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>84001019</td>
+      <td>84040033</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1019.0</td>
-      <td>Cherokee</td>
-      <td>Alabama</td>
+      <td>40033.0</td>
+      <td>Cotton</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>34.178060</td>
-      <td>-85.606390</td>
-      <td>Cherokee, Alabama, US</td>
+      <td>34.288456</td>
+      <td>-98.370536</td>
+      <td>Cotton, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>84001021</td>
+      <td>84040035</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1021.0</td>
-      <td>Chilton</td>
-      <td>Alabama</td>
+      <td>40035.0</td>
+      <td>Craig</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>32.850441</td>
-      <td>-86.717326</td>
-      <td>Chilton, Alabama, US</td>
+      <td>36.762681</td>
+      <td>-95.209166</td>
+      <td>Craig, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>84001023</td>
+      <td>84040015</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1023.0</td>
-      <td>Choctaw</td>
-      <td>Alabama</td>
+      <td>40015.0</td>
+      <td>Caddo</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>32.022273</td>
-      <td>-88.265644</td>
-      <td>Choctaw, Alabama, US</td>
+      <td>35.173646</td>
+      <td>-98.375345</td>
+      <td>Caddo, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>84001025</td>
+      <td>84040037</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1025.0</td>
-      <td>Clarke</td>
-      <td>Alabama</td>
+      <td>40037.0</td>
+      <td>Creek</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>31.680999</td>
-      <td>-87.835486</td>
-      <td>Clarke, Alabama, US</td>
+      <td>35.902306</td>
+      <td>-96.370860</td>
+      <td>Creek, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>84001027</td>
+      <td>84040041</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1027.0</td>
-      <td>Clay</td>
-      <td>Alabama</td>
+      <td>40041.0</td>
+      <td>Delaware</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>33.269842</td>
-      <td>-85.858361</td>
-      <td>Clay, Alabama, US</td>
+      <td>36.408236</td>
+      <td>-94.803250</td>
+      <td>Delaware, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>84001029</td>
+      <td>84040043</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1029.0</td>
-      <td>Cleburne</td>
-      <td>Alabama</td>
+      <td>40043.0</td>
+      <td>Dewey</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>33.676792</td>
-      <td>-85.520059</td>
-      <td>Cleburne, Alabama, US</td>
+      <td>35.987729</td>
+      <td>-99.007307</td>
+      <td>Dewey, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>84001031</td>
+      <td>84040045</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1031.0</td>
-      <td>Coffee</td>
-      <td>Alabama</td>
+      <td>40045.0</td>
+      <td>Ellis</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>31.399328</td>
-      <td>-85.989010</td>
-      <td>Coffee, Alabama, US</td>
+      <td>36.218019</td>
+      <td>-99.753246</td>
+      <td>Ellis, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>84001033</td>
+      <td>84040047</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1033.0</td>
-      <td>Colbert</td>
-      <td>Alabama</td>
+      <td>40047.0</td>
+      <td>Garfield</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>34.698475</td>
-      <td>-87.801685</td>
-      <td>Colbert, Alabama, US</td>
+      <td>36.379133</td>
+      <td>-97.782655</td>
+      <td>Garfield, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>84001035</td>
+      <td>84040049</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1035.0</td>
-      <td>Conecuh</td>
-      <td>Alabama</td>
+      <td>40049.0</td>
+      <td>Garvin</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>31.434017</td>
-      <td>-86.993200</td>
-      <td>Conecuh, Alabama, US</td>
+      <td>34.704180</td>
+      <td>-97.308111</td>
+      <td>Garvin, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>84001037</td>
+      <td>84040051</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1037.0</td>
-      <td>Coosa</td>
-      <td>Alabama</td>
+      <td>40051.0</td>
+      <td>Grady</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>32.936901</td>
-      <td>-86.248477</td>
-      <td>Coosa, Alabama, US</td>
+      <td>35.016771</td>
+      <td>-97.883398</td>
+      <td>Grady, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>84001039</td>
+      <td>84040053</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>1039.0</td>
-      <td>Covington</td>
-      <td>Alabama</td>
+      <td>40053.0</td>
+      <td>Grant</td>
+      <td>Oklahoma</td>
       <td>US</td>
-      <td>31.247785</td>
-      <td>-86.450509</td>
-      <td>Covington, Alabama, US</td>
+      <td>36.796297</td>
+      <td>-97.786388</td>
+      <td>Grant, Oklahoma, US</td>
       <td>2020-01-22</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>1349340</th>
-      <td>84056011</td>
+      <td>84021141</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56011.0</td>
-      <td>Crook</td>
-      <td>Wyoming</td>
+      <td>21141.0</td>
+      <td>Logan</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>44.588551</td>
-      <td>-104.569771</td>
-      <td>Crook, Wyoming, US</td>
+      <td>36.859495</td>
+      <td>-86.877635</td>
+      <td>Logan, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>417</td>
+      <td>2486</td>
+      <td>267526</td>
     </tr>
     <tr>
       <th>1349341</th>
-      <td>84056013</td>
+      <td>84021143</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56013.0</td>
-      <td>Fremont</td>
-      <td>Wyoming</td>
+      <td>21143.0</td>
+      <td>Lyon</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>43.041840</td>
-      <td>-108.629689</td>
-      <td>Fremont, Wyoming, US</td>
+      <td>37.020800</td>
+      <td>-88.078863</td>
+      <td>Lyon, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>4868</td>
+      <td>507</td>
+      <td>45011</td>
     </tr>
     <tr>
       <th>1349342</th>
-      <td>84056015</td>
+      <td>84021151</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56015.0</td>
-      <td>Goshen</td>
-      <td>Wyoming</td>
+      <td>21151.0</td>
+      <td>Madison</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>42.087982</td>
-      <td>-104.353474</td>
-      <td>Goshen, Wyoming, US</td>
+      <td>37.716593</td>
+      <td>-84.272203</td>
+      <td>Madison, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>1145</td>
+      <td>8638</td>
+      <td>829526</td>
     </tr>
     <tr>
       <th>1349343</th>
-      <td>84056017</td>
+      <td>84021153</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56017.0</td>
-      <td>Hot Springs</td>
-      <td>Wyoming</td>
+      <td>21153.0</td>
+      <td>Magoffin</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>43.719307</td>
-      <td>-108.442317</td>
-      <td>Hot Springs, Wyoming, US</td>
+      <td>37.708205</td>
+      <td>-83.065771</td>
+      <td>Magoffin, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>359</td>
+      <td>873</td>
+      <td>85313</td>
     </tr>
     <tr>
       <th>1349344</th>
-      <td>84056019</td>
+      <td>84021155</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56019.0</td>
-      <td>Johnson</td>
-      <td>Wyoming</td>
+      <td>21155.0</td>
+      <td>Marion</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>44.040572</td>
-      <td>-106.584517</td>
-      <td>Johnson, Wyoming, US</td>
+      <td>37.552181</td>
+      <td>-85.268985</td>
+      <td>Marion, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>712</td>
+      <td>2146</td>
+      <td>200663</td>
     </tr>
     <tr>
       <th>1349345</th>
-      <td>84056021</td>
+      <td>84021157</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56021.0</td>
-      <td>Laramie</td>
-      <td>Wyoming</td>
+      <td>21157.0</td>
+      <td>Marshall</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>41.307025</td>
-      <td>-104.688750</td>
-      <td>Laramie, Wyoming, US</td>
+      <td>36.880071</td>
+      <td>-88.328036</td>
+      <td>Marshall, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>8188</td>
+      <td>2519</td>
+      <td>219814</td>
     </tr>
     <tr>
       <th>1349346</th>
-      <td>84056023</td>
+      <td>84021159</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56023.0</td>
-      <td>Lincoln</td>
-      <td>Wyoming</td>
+      <td>21159.0</td>
+      <td>Martin</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>42.263764</td>
-      <td>-110.656400</td>
-      <td>Lincoln, Wyoming, US</td>
+      <td>37.799906</td>
+      <td>-82.512475</td>
+      <td>Martin, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>1229</td>
+      <td>936</td>
+      <td>84450</td>
     </tr>
     <tr>
       <th>1349347</th>
-      <td>84056025</td>
+      <td>84021161</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56025.0</td>
-      <td>Natrona</td>
-      <td>Wyoming</td>
+      <td>21161.0</td>
+      <td>Mason</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>42.961801</td>
-      <td>-106.797885</td>
-      <td>Natrona, Wyoming, US</td>
+      <td>38.594719</td>
+      <td>-83.821510</td>
+      <td>Mason, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>7696</td>
+      <td>1446</td>
+      <td>115866</td>
     </tr>
     <tr>
       <th>1349348</th>
-      <td>84056027</td>
+      <td>84021145</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56027.0</td>
-      <td>Niobrara</td>
-      <td>Wyoming</td>
+      <td>21145.0</td>
+      <td>McCracken</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>43.056077</td>
-      <td>-104.475890</td>
-      <td>Niobrara, Wyoming, US</td>
+      <td>37.053510</td>
+      <td>-88.704458</td>
+      <td>McCracken, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>149</td>
+      <td>5768</td>
+      <td>556029</td>
     </tr>
     <tr>
       <th>1349349</th>
-      <td>84080056</td>
+      <td>84021147</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>80056.0</td>
-      <td>Out of WY</td>
-      <td>Wyoming</td>
+      <td>21147.0</td>
+      <td>McCreary</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>Out of WY, Wyoming, US</td>
+      <td>36.738741</td>
+      <td>-84.481029</td>
+      <td>McCreary, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>0</td>
+      <td>1747</td>
+      <td>133262</td>
     </tr>
     <tr>
       <th>1349350</th>
-      <td>84056029</td>
+      <td>84021149</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56029.0</td>
-      <td>Park</td>
-      <td>Wyoming</td>
+      <td>21149.0</td>
+      <td>McLean</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>44.521575</td>
-      <td>-109.585283</td>
-      <td>Park, Wyoming, US</td>
+      <td>37.530195</td>
+      <td>-87.268034</td>
+      <td>McLean, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>2615</td>
+      <td>834</td>
+      <td>77928</td>
     </tr>
     <tr>
       <th>1349351</th>
-      <td>84056031</td>
+      <td>84021163</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56031.0</td>
-      <td>Platte</td>
-      <td>Wyoming</td>
+      <td>21163.0</td>
+      <td>Meade</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>42.132991</td>
-      <td>-104.966331</td>
-      <td>Platte, Wyoming, US</td>
+      <td>37.961636</td>
+      <td>-86.210282</td>
+      <td>Meade, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>590</td>
+      <td>1856</td>
+      <td>160050</td>
     </tr>
     <tr>
       <th>1349352</th>
-      <td>84056033</td>
+      <td>84021165</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56033.0</td>
-      <td>Sheridan</td>
-      <td>Wyoming</td>
+      <td>21165.0</td>
+      <td>Menifee</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>44.790489</td>
-      <td>-106.886239</td>
-      <td>Sheridan, Wyoming, US</td>
+      <td>37.940907</td>
+      <td>-83.599857</td>
+      <td>Menifee, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>3020</td>
+      <td>408</td>
+      <td>33132</td>
     </tr>
     <tr>
       <th>1349353</th>
-      <td>84056035</td>
+      <td>84021167</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56035.0</td>
-      <td>Sublette</td>
-      <td>Wyoming</td>
+      <td>21167.0</td>
+      <td>Mercer</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>42.765583</td>
-      <td>-109.913092</td>
-      <td>Sublette, Wyoming, US</td>
+      <td>37.814742</td>
+      <td>-84.874885</td>
+      <td>Mercer, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>676</td>
+      <td>2356</td>
+      <td>189492</td>
     </tr>
     <tr>
       <th>1349354</th>
-      <td>84056037</td>
+      <td>84021169</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56037.0</td>
-      <td>Sweetwater</td>
-      <td>Wyoming</td>
+      <td>21169.0</td>
+      <td>Metcalfe</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>41.659439</td>
-      <td>-108.882788</td>
-      <td>Sweetwater, Wyoming, US</td>
+      <td>36.994593</td>
+      <td>-85.631237</td>
+      <td>Metcalfe, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>3759</td>
+      <td>970</td>
+      <td>83297</td>
     </tr>
     <tr>
       <th>1349355</th>
-      <td>84056039</td>
+      <td>84021171</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56039.0</td>
-      <td>Teton</td>
-      <td>Wyoming</td>
+      <td>21171.0</td>
+      <td>Monroe</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>43.935225</td>
-      <td>-110.589080</td>
-      <td>Teton, Wyoming, US</td>
+      <td>36.712253</td>
+      <td>-85.715964</td>
+      <td>Monroe, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>3351</td>
+      <td>1249</td>
+      <td>130428</td>
     </tr>
     <tr>
       <th>1349356</th>
-      <td>84056041</td>
+      <td>84021173</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56041.0</td>
-      <td>Uinta</td>
-      <td>Wyoming</td>
+      <td>21173.0</td>
+      <td>Montgomery</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>41.287818</td>
-      <td>-110.547578</td>
-      <td>Uinta, Wyoming, US</td>
+      <td>38.032530</td>
+      <td>-83.914524</td>
+      <td>Montgomery, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>2053</td>
+      <td>2306</td>
+      <td>201401</td>
     </tr>
     <tr>
       <th>1349357</th>
-      <td>84090056</td>
+      <td>84021175</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>90056.0</td>
-      <td>Unassigned</td>
-      <td>Wyoming</td>
+      <td>21175.0</td>
+      <td>Morgan</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>Unassigned, Wyoming, US</td>
+      <td>37.924657</td>
+      <td>-83.255582</td>
+      <td>Morgan, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>0</td>
+      <td>2024</td>
+      <td>125463</td>
     </tr>
     <tr>
       <th>1349358</th>
-      <td>84056043</td>
+      <td>84021023</td>
       <td>US</td>
       <td>USA</td>
       <td>840</td>
-      <td>56043.0</td>
-      <td>Washakie</td>
-      <td>Wyoming</td>
+      <td>21023.0</td>
+      <td>Bracken</td>
+      <td>Kentucky</td>
       <td>US</td>
-      <td>43.904516</td>
-      <td>-107.680187</td>
-      <td>Washakie, Wyoming, US</td>
+      <td>38.691590</td>
+      <td>-84.085324</td>
+      <td>Bracken, Kentucky, US</td>
       <td>2021-02-28</td>
-      <td>881</td>
+      <td>519</td>
+      <td>40916</td>
     </tr>
     <tr>
       <th>1349359</th>
@@ -678,6 +719,7 @@
       <td>Weston, Wyoming, US</td>
       <td>2021-02-28</td>
       <td>622</td>
+      <td>61885</td>
     </tr>
   </tbody>
 </table>
