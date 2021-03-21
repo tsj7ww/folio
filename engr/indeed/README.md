@@ -25,3 +25,5 @@ Python web scraper running on AWS Lambda to pull job postings data from Indeed.c
 
 ### ToDo
 1. AWS API Gateway with query params for job title & location
+1. Create Docker environment for local testing
+1. Finish Makefile for quick maintenance
