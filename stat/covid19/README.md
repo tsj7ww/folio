@@ -1,5 +1,5 @@
 # Covid19 Analysis
-Analysis of Covid19 data sourced from Johns Hopkins and blended with various demographics datasets.
+Visualization of Covid19 data sourced from Johns Hopkins and blended with various demographics datasets.
 
 ### Overview
 - Problem: create data visualizations for Covid19 data.
@@ -86,6 +86,3 @@ Analysis of Covid19 data sourced from Johns Hopkins and blended with various dem
   - Timeseries aspect of the data will impact results
     - Reason: any individual who has contracted Covid19 will be significantly less likely to catch it again
     - Remediation: for any given month, reduce the population count by the number of positive Covid19 cases from the previous month
-
-### ToDo
-1. ...

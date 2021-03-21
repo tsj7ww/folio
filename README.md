@@ -3,10 +3,16 @@ Repo for storing curated projects.
 
 ### [Analysis](./stat)
 
-##### [Covid19 Deaths Forecast](./stat/covid19)
-- Description: Analysis on Covid19 data provided by Johns Hopkins University and demographic data pulled from various sources
+##### [Covid19 Data Visualization](./stat/covid19)
+- Description: Visualizations on Covid19 data provided by Johns Hopkins University and demographic data pulled from various sources
 - Languages: Python, Shell
 - Technology: Pandas, Apache Parquet, Jupyter Notebook, RegEx, MatPlotLib
+- In Progress: Docker, Bokeh
+
+##### [Regression Analysis](./stat)
+- Description: Regression analysis on an undecided topic.
+- Languages: Python, Shell
+- Technology: Pandas, Apache Parquet, Jupyter Notebook, RegEx, SciPy, MatPlotLib
 - In Progress: Docker, ML (TensorFlow)
 
 ### [Engineering](./engr)
