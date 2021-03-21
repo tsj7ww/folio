@@ -1,9 +1,9 @@
 # Portfolio
 Repo for storing curated projects.
 
-### [Analysis](./analysis)
+### [Analysis](./stat)
 
-##### [Covid19 Deaths Forecast](./analysis/covid19)
+##### [Covid19 Deaths Forecast](./stat/covid19)
 - Description: Analysis on Covid19 data provided by Johns Hopkins University and demographic data pulled from various sources
 - Languages: Python, Shell
 - Technology: Pandas, Apache Parquet, Jupyter Notebook, RegEx, MatPlotLib
@@ -15,7 +15,7 @@ Repo for storing curated projects.
 - Description: Web scraper for job posting data from Indeed.com
 - Languages: Python, Shell
 - Technology: AWS (Lambda, DynamoDB, S3, IAM, Events, SNS, SES), Concurrency, RegEx
-- In Progress: add AWS API Gateway
+- In Progress: add AWS API Gateway, Makefile, Docker
 
 
 <!--
