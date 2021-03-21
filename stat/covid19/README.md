@@ -33,9 +33,7 @@ Analysis of Covid19 data sourced from Johns Hopkins and blended with various dem
 ### Preprocessing
 ...
 
-### Analysis
-
-##### Viz
+### Vizualization
 ...
 
 ---

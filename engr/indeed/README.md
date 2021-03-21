@@ -21,8 +21,6 @@ Python web scraper running on AWS Lambda to pull job postings data from Indeed.c
 - [Update](./update.sh): update source code in S3 & Lambda, update Lambda layer
 - [Cleanup](./cleanup.sh): delete AWS services (Lambda, DynamoDB, SNS, Events)
 
----
-
 ### ToDo
 1. AWS API Gateway with query params for job title & location
 1. Create Docker environment for local testing
