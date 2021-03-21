@@ -1,0 +1,263 @@
+# EDA - DEMO-CB-ACS Files 
+
+#### Column Name [IDX] -  Dtype (Head / Tail) 
+- **POP** [0] - object (4903185 / 578759) 
+- **NAME** [1] - object (Alabama / Wyoming) 
+- **state** [2] - object (01 / 56) 
+
+
+
+#### Head / Tail [n=20] Sample 
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>POP</th>
+      <th>NAME</th>
+      <th>state</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>4903185</td>
+      <td>Alabama</td>
+      <td>01</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>731545</td>
+      <td>Alaska</td>
+      <td>02</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>12801989</td>
+      <td>Pennsylvania</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3193694</td>
+      <td>Puerto Rico</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>7278717</td>
+      <td>Arizona</td>
+      <td>04</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>3017804</td>
+      <td>Arkansas</td>
+      <td>05</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>39512223</td>
+      <td>California</td>
+      <td>06</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>5758736</td>
+      <td>Colorado</td>
+      <td>08</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>3565287</td>
+      <td>Connecticut</td>
+      <td>09</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>973764</td>
+      <td>Delaware</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>705749</td>
+      <td>District of Columbia</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>21477737</td>
+      <td>Florida</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>10617423</td>
+      <td>Georgia</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>1415872</td>
+      <td>Hawaii</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>1787065</td>
+      <td>Idaho</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>12671821</td>
+      <td>Illinois</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>6732219</td>
+      <td>Indiana</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>3155070</td>
+      <td>Iowa</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2913314</td>
+      <td>Kansas</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>4467673</td>
+      <td>Kentucky</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>8882190</td>
+      <td>New Jersey</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>2096829</td>
+      <td>New Mexico</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>19453561</td>
+      <td>New York</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>10488084</td>
+      <td>North Carolina</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>762062</td>
+      <td>North Dakota</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>11689100</td>
+      <td>Ohio</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>3956971</td>
+      <td>Oklahoma</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>4217737</td>
+      <td>Oregon</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>1059361</td>
+      <td>Rhode Island</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>5148714</td>
+      <td>South Carolina</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>884659</td>
+      <td>South Dakota</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>6829174</td>
+      <td>Tennessee</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>28995881</td>
+      <td>Texas</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>3205958</td>
+      <td>Utah</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>623989</td>
+      <td>Vermont</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>8535519</td>
+      <td>Virginia</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>7614893</td>
+      <td>Washington</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>1792147</td>
+      <td>West Virginia</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>5822434</td>
+      <td>Wisconsin</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>578759</td>
+      <td>Wyoming</td>
+      <td>56</td>
+    </tr>
+  </tbody>
+</table>
